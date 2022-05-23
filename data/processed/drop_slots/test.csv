@@ -1,0 +1,701 @@
+text,slot,intent
+add to the playlist,O B-artist I-artist O O B-playlist I-playlist O,AddToPlaylist
+i want to bring people to a place that s to that serves cuisine,O O O O B-party_size_number O O O O O O B-spatial_relation O B-poi O O B-restaurant_type O,BookRestaurant
+put into,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+will it in on,O O B-condition_description O B-state O B-timeRange I-timeRange I-timeRange,GetWeather
+play music that is,O B-artist I-artist B-music_item O O O B-sort,PlayMusic
+can you let me know what are playing,O O O O O O B-movie_type I-movie_type O O B-spatial_relation I-spatial_relation,SearchScreeningEvent
+can you get me reservations for a in,O O O O O O O B-sort I-sort B-restaurant_type O B-country,BookRestaurant
+what s the weather on,O O O O B-current_location O B-timeRange,GetWeather
+find starting at a,O B-movie_name I-movie_name O B-timeRange O O B-object_location_type I-object_location_type,SearchScreeningEvent
+on i d like to go to a,O B-timeRange I-timeRange I-timeRange O O O O O O O B-state B-restaurant_type,BookRestaurant
+what are playing at,O B-movie_type O O O B-location_name I-location_name,SearchScreeningEvent
+find a called,O O B-object_type O B-object_name I-object_name I-object_name,SearchCreativeWork
+find,O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+make a reservation at a that has in for,O O O O O B-restaurant_type O O B-served_dish O B-country I-country I-country O B-party_size_number,BookRestaurant
+where can i purchase the,O O O O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+will the die down at my by time,O O B-condition_description O O O O B-current_location I-current_location O B-timeRange O,GetWeather
+please search,O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+make me a reservation in,O O O O O B-state I-state,BookRestaurant
+what is showing,O B-object_location_type I-object_location_type O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+in party for numbers,B-restaurant_type O B-country B-timeRange I-timeRange O O B-party_size_number O,BookRestaurant
+rate the of,O O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit,RateBook
+add the to playlist,O O B-music_item B-playlist I-playlist I-playlist I-playlist I-playlist O B-playlist_owner O,AddToPlaylist
+add this by to playlist,O O B-music_item O B-artist I-artist O B-playlist I-playlist O,AddToPlaylist
+show the,O O B-object_type I-object_type,SearchScreeningEvent
+will it in,O O B-condition_description O B-city,GetWeather
+what will the weather be at in,O O O O O O B-timeRange I-timeRange O B-state,GetWeather
+find,B-timeRange I-timeRange I-timeRange O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+book a spot for at a from,O O O O B-party_size_number O O B-sort B-cuisine B-restaurant_type B-spatial_relation I-spatial_relation O B-city,BookRestaurant
+play music from in the year,O O O B-artist I-artist O O O B-year,PlayMusic
+add to the,O O O B-playlist B-entity_name,AddToPlaylist
+add this to,O O B-music_item O B-playlist I-playlist I-playlist,AddToPlaylist
+i rate at,O O B-object_name I-object_name I-object_name O B-rating_value B-rating_unit,RateBook
+play some music,O O B-year O,PlayMusic
+what is playing,O B-movie_type O O B-spatial_relation,SearchScreeningEvent
+add to playlist,O B-entity_name I-entity_name O B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+get the of,O O B-object_type I-object_type O B-object_name I-object_name I-object_name,SearchCreativeWork
+rate of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating B-rating_unit,RateBook
+show me,O O B-object_type I-object_type,SearchScreeningEvent
+what will the weather be in on,O O O O O O B-city I-city O B-timeRange I-timeRange I-timeRange,GetWeather
+weather in,O B-timeRange I-timeRange O B-country,GetWeather
+play a by on,O O B-sort B-music_item O B-artist I-artist I-artist O B-service,PlayMusic
+rate out of,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+play music from the,O B-artist O O O B-year,PlayMusic
+what is the weather of,O O O O O B-city I-city B-state,GetWeather
+play a from,O O B-music_item O B-artist I-artist,PlayMusic
+what is the weather going to be like in on,O O O O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi O B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+play songs by,O O O B-artist I-artist,PlayMusic
+rate the a,O O B-object_part_of_series_type B-object_name I-object_name I-object_name O B-rating_value,RateBook
+book a table for at a in,O O O O B-party_size_number O O B-restaurant_type O B-city,BookRestaurant
+book a in for people,O O B-restaurant_type O B-country O B-party_size_number O,BookRestaurant
+play,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find a reservation at a that serves in with a party of,O O O O O B-restaurant_type O O B-served_dish O B-city O O O O B-party_size_number,BookRestaurant
+find the for me,O O B-object_name I-object_name I-object_name B-object_type I-object_type O O,SearchCreativeWork
+book a for on,O O B-restaurant_type O B-cuisine O B-timeRange I-timeRange I-timeRange,BookRestaurant
+rate the a,O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value,RateBook
+book a table for at a that serves,O O O O B-party_size_number O O B-restaurant_type O O B-served_dish I-served_dish,BookRestaurant
+rate this,O O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+i rate as a,O O B-object_name I-object_name O O B-rating_value,RateBook
+is at,O B-movie_name I-movie_name O B-location_name I-location_name,SearchScreeningEvent
+please find me,O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+what will the weather be in on,O O O O O O B-city B-state O B-timeRange I-timeRange I-timeRange,GetWeather
+is it in,O O B-condition_temperature O B-city,GetWeather
+please add a to playlist called,O O O B-music_item O B-playlist_owner O O B-playlist I-playlist I-playlist,AddToPlaylist
+find the,O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+can you add to playlist called,O O O B-entity_name O B-playlist_owner O O B-playlist,AddToPlaylist
+find the for,O O B-object_type O B-spatial_relation B-movie_type I-movie_type,SearchScreeningEvent
+book a table at a for that serves,O O O B-timeRange O O B-restaurant_type O B-party_size_number O O B-served_dish,BookRestaurant
+play the by from around,O O B-sort B-music_item I-music_item O B-artist O O B-year,PlayMusic
+add this to,O O B-music_item O B-playlist I-playlist,AddToPlaylist
+for for,B-restaurant_name I-restaurant_name I-restaurant_name B-restaurant_type O B-timeRange I-timeRange O B-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+add to,O B-entity_name O B-playlist I-playlist,AddToPlaylist
+play some music,O O B-artist I-artist B-music_item O,PlayMusic
+give out of to,O B-rating_value O O B-best_rating B-rating_unit O B-object_select B-object_type,RateBook
+show the of,O O B-object_type I-object_type O B-movie_type I-movie_type B-spatial_relation I-spatial_relation,SearchScreeningEvent
+please play the music by,O O O B-sort O O B-artist I-artist I-artist,PlayMusic
+add to playlist,O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+put onto,O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist I-playlist,AddToPlaylist
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+i want to hear any from the,O O O O O B-music_item O O B-year,PlayMusic
+play me a by on,O O O B-sort B-music_item O B-artist I-artist O B-service I-service,PlayMusic
+find a called,O O B-object_type I-object_type O B-object_name I-object_name,SearchCreativeWork
+rate a,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value,RateBook
+add to,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+what is the weather forecast for my,O O O O O O O B-current_location I-current_location,GetWeather
+add to the playlist,O B-entity_name O O B-playlist I-playlist O,AddToPlaylist
+where can i find,O O O O B-object_name I-object_name,SearchCreativeWork
+will it be in the,O O O B-condition_temperature O O B-current_location I-current_location,GetWeather
+add the to the playlist,O O B-artist I-artist B-music_item O O B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add a to the playlist,O O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+find,O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+the playlist needs more,O B-playlist O O O B-artist I-artist,AddToPlaylist
+play some music on,O O B-genre O O B-service,PlayMusic
+give point to,O B-rating_value O O B-object_select B-object_type,RateBook
+put into playlist,O B-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+i want to put on the playlist named,O O O O B-entity_name I-entity_name I-entity_name O O O O B-playlist I-playlist I-playlist,AddToPlaylist
+what time is coming on at,O O O B-movie_name I-movie_name I-movie_name O O O B-location_name I-location_name,SearchScreeningEvent
+rate the a,O O B-object_select B-object_part_of_series_type O B-rating_value,RateBook
+add to,O B-artist I-artist B-music_item O B-playlist_owner B-playlist I-playlist,AddToPlaylist
+add the to,O O B-music_item B-artist I-artist I-artist O B-playlist I-playlist,AddToPlaylist
+find the work,O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+play by,O B-track I-track I-track O B-artist I-artist,PlayMusic
+play on,O B-track I-track I-track I-track O B-service,PlayMusic
+can i get the showings,O O O O B-movie_name I-movie_name O,SearchScreeningEvent
+add to playlist,O B-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+show me when is playing,O O O B-movie_name I-movie_name O O,SearchScreeningEvent
+deserves a best rating of and a value of,B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O O O O O B-best_rating O O O O B-rating_value,RateBook
+for playlist add,O B-playlist_owner B-playlist O O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name,AddToPlaylist
+play some,O O B-artist I-artist,PlayMusic
+put this on,O O B-music_item O B-playlist,AddToPlaylist
+what time will aired,O O O B-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+play music on,O O O B-service,PlayMusic
+i want a in playlist,O O O B-artist I-artist B-music_item O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+will there be at in,O O O B-condition_description O B-timeRange I-timeRange O B-city I-city B-state,GetWeather
+search for the,O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+tell me when it will be in,O O O O O O B-condition_temperature O B-city B-country I-country,GetWeather
+is it in,O O B-condition_description O B-city,GetWeather
+find a called,O O B-object_type I-object_type O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find the called,O O B-object_type I-object_type O B-object_name I-object_name I-object_name,SearchCreativeWork
+play the as performed by,O O B-music_item B-track I-track I-track O O O B-artist I-artist,PlayMusic
+add to the playlist,O B-artist O O B-playlist I-playlist O,AddToPlaylist
+find a reservation at,O O O O B-restaurant_name I-restaurant_name,BookRestaurant
+check the forecast for the in the future,O O O O O B-current_location I-current_location O O O B-timeRange I-timeRange I-timeRange,GetWeather
+how can i view the,O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+i would rate and a best rating of,O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit O O O O O B-best_rating,RateBook
+add the rating for this a out of,O O O O O B-object_select B-object_part_of_series_type O B-rating_value O O B-best_rating B-rating_unit,RateBook
+add to,O B-artist I-artist O B-playlist I-playlist I-playlist,AddToPlaylist
+book a that serves for person,O O B-restaurant_type O O B-served_dish I-served_dish B-spatial_relation B-poi I-poi O B-party_size_number O,BookRestaurant
+is forecast to,O B-condition_description O B-spatial_relation O B-country,GetWeather
+book a for people at oclock in,O O B-restaurant_type O B-party_size_number O O B-timeRange O O B-country I-country I-country I-country I-country,BookRestaurant
+find the for at at,O O B-object_type O B-movie_type O B-timeRange O B-location_name I-location_name I-location_name,SearchScreeningEvent
+is there in the,O O B-condition_description O O B-state I-state I-state,GetWeather
+find a,O O B-object_type I-object_type,SearchScreeningEvent
+rate out of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+what is the forecast in,O O O O O B-city,GetWeather
+please play an from,O O O B-music_item O B-year,PlayMusic
+show me,O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+give the out of,O O B-object_select B-object_type B-rating_value B-rating_unit O O B-best_rating,RateBook
+when is playing,O O B-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+add a to,O O B-music_item O B-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+play,O B-artist I-artist,PlayMusic
+what is the forecast for at for temps,O O O O O B-timeRange I-timeRange I-timeRange O B-city I-city O B-condition_temperature O,GetWeather
+i would like to eat and have a party of in,O O O O O B-restaurant_type I-restaurant_type O O O O O B-party_size_number O B-state,BookRestaurant
+play music from for,O O O B-service O B-artist I-artist,PlayMusic
+add to playlist,O B-entity_name I-entity_name O B-playlist_owner B-playlist O,AddToPlaylist
+show the,O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+add to,O B-artist I-artist O B-playlist_owner I-playlist_owner B-playlist I-playlist,AddToPlaylist
+show me the weather forecast for the city of,O O O O O O O O O B-city,GetWeather
+how is the weather in,O O O O O B-city B-state,GetWeather
+what is,O O B-movie_name I-movie_name I-movie_name B-location_name I-location_name,SearchScreeningEvent
+i need a weather forecast for on,O O O O O O B-country I-country I-country I-country O B-timeRange I-timeRange I-timeRange,GetWeather
+what are showing,O B-movie_type I-movie_type O O B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+tell me the weather forecast for,O O O O O O B-timeRange I-timeRange I-timeRange B-current_location,GetWeather
+play the,O O B-music_item B-track I-track I-track I-track,PlayMusic
+play tunes,O B-artist I-artist B-music_item O,PlayMusic
+can you add a to playlist,O O O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+at time while i m will it be,O B-timeRange O O O O B-current_location O O O B-condition_temperature,GetWeather
+can you find me the,O O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+add to the playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O O B-playlist I-playlist O,AddToPlaylist
+play some from the,O O B-artist I-artist O O B-year,PlayMusic
+book a table that is in a,O O O B-spatial_relation B-poi I-poi I-poi I-poi O O B-sort I-sort O O B-cuisine I-cuisine B-restaurant_type,BookRestaurant
+when is showing,O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+will it in,O O B-condition_description O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+book me a reservation at a for people that serves for,O O O O O O B-restaurant_type B-spatial_relation B-city O B-party_size_number O O O B-served_dish O B-timeRange,BookRestaurant
+book a place in at a,O O B-sort I-sort O O B-state B-timeRange I-timeRange I-timeRange O O B-restaurant_type,BookRestaurant
+what time is showing,O O O B-location_name I-location_name O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+add this ny to list,O O B-music_item O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+find a called,O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+book a table for for in,O O O O B-party_size_number O B-timeRange O B-state,BookRestaurant
+what is the local,O O O O B-object_type I-object_type,SearchScreeningEvent
+book a for on,O O B-restaurant_type O B-party_size_number O B-timeRange I-timeRange,BookRestaurant
+i d like to know what are on the,O O O O O O B-movie_type O O O B-object_type I-object_type B-spatial_relation,SearchScreeningEvent
+please make me reservations somewhere for people in,O O O O O O B-party_size_number O O B-city B-state,BookRestaurant
+she me at,O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+find the,O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+play the from the,O O B-sort B-music_item O O B-year,PlayMusic
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+is it in,O O B-condition_temperature O B-state,GetWeather
+gets a total of out of from me,B-object_name I-object_name I-object_name O O O O B-rating_value O O B-best_rating B-rating_unit O O,RateBook
+will it be in,O O O B-condition_description O B-state,GetWeather
+play,O B-playlist I-playlist I-playlist,PlayMusic
+play some songs from,O O B-music_item O O B-year,PlayMusic
+what will the weather be in at,O O O O O O B-state O B-timeRange I-timeRange I-timeRange,GetWeather
+can you add to,O O O B-entity_name O B-playlist I-playlist I-playlist,AddToPlaylist
+can you find me the,O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+please search the work,O O O O B-object_name,SearchCreativeWork
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add this to,O O B-music_item O B-playlist I-playlist I-playlist,AddToPlaylist
+i d like to eat at a with a party of anywhere that serves,O O O O O O O B-restaurant_type B-spatial_relation B-country O O O O B-party_size_number O O O B-cuisine,BookRestaurant
+playlist needs some in it,B-playlist I-playlist I-playlist I-playlist O O O B-artist I-artist I-artist O O,AddToPlaylist
+rate the,O O B-object_select B-object_part_of_series_type B-rating_value B-rating_unit,RateBook
+rate of,O B-object_select B-object_type B-rating_value O B-best_rating,RateBook
+my rating for is out of,O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O O B-best_rating B-rating_unit,RateBook
+i d like a table for at,O O O O O O B-timeRange O B-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+where can i see the,O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+turn on to,O O B-service O B-artist I-artist B-music_item,PlayMusic
+what are the,O O O B-object_type I-object_type,SearchScreeningEvent
+i want a table for in at a,O O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-country O O B-spatial_relation B-restaurant_type,BookRestaurant
+play a from on,O O B-sort I-sort B-music_item O B-artist I-artist O B-service I-service,PlayMusic
+please search the,O O O B-object_name B-object_type,SearchCreativeWork
+put a into the playlist,O O B-artist I-artist B-music_item O O B-playlist I-playlist O,AddToPlaylist
+will it be on in and,O O O B-condition_temperature O B-timeRange I-timeRange I-timeRange O B-state O B-spatial_relation,GetWeather
+i want to see the called,O O O O O B-object_type I-object_type O B-object_name I-object_name I-object_name,SearchCreativeWork
+i d like to reserve a table at a that serves in,O O O O O O O O O B-restaurant_type O O B-served_dish B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-country I-country,BookRestaurant
+what is the weather like in,O O O O O O B-city,GetWeather
+put this on playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating,RateBook
+search for the,O O O B-object_name,SearchCreativeWork
+find the for at the,O O B-object_type O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+what will the weather be in on,O O O O O O B-city I-city B-country O B-timeRange I-timeRange I-timeRange,GetWeather
+what is the weather forecast in,O O O O O O B-state,GetWeather
+play a from,O O B-sort B-music_item O B-year,PlayMusic
+play s music on,O B-artist I-artist O O O B-service,PlayMusic
+can i get the,O O O O B-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+what s the forecast for around time,O O O O O B-country O B-timeRange O,GetWeather
+add to playlist,O B-artist I-artist B-music_item O B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+find,O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+put on playlist,O B-music_item B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+i am looking for the work:,O O O O O O B-object_name,SearchCreativeWork
+what s the weather in,O O O O O B-city I-city,GetWeather
+play some music,O O B-year O,PlayMusic
+find a called,O O B-object_type I-object_type O B-object_name I-object_name,SearchCreativeWork
+use to play,O B-service O O B-artist I-artist B-track I-track I-track I-track I-track,PlayMusic
+i d like to see for,O O O O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+i want added to playlist,O O B-entity_name I-entity_name I-entity_name I-entity_name O O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+play the by on,O O B-sort B-music_item O B-artist I-artist O B-service I-service,PlayMusic
+what is the in,O O O B-object_type I-object_type O B-object_name I-object_name,SearchCreativeWork
+book the in for,O O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name O B-city B-state O B-timeRange I-timeRange I-timeRange,BookRestaurant
+find a called,O O B-object_type O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+can s get added to playlist,O B-artist I-artist I-artist O B-music_item O O O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+show in,O B-movie_type I-movie_type O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+find the,O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+where can i find playing near me,O O O O B-movie_name I-movie_name I-movie_name O O O B-timeRange I-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+book a table this in at a,O O O O B-timeRange O B-country I-country I-country I-country I-country O O B-restaurant_type,BookRestaurant
+can i listen to s,O O O O B-artist I-artist O B-sort I-sort,PlayMusic
+what are at the,O B-movie_type O O O B-spatial_relation B-object_location_type,SearchScreeningEvent
+what is the weather like in and,O O O O O O B-city I-city I-city O B-country,GetWeather
+can you tell me the of the awards/,O O O O O B-object_name O O B-object_type O,SearchCreativeWork
+go to and add,O O B-playlist_owner B-playlist I-playlist I-playlist O O B-artist I-artist,AddToPlaylist
+in for,B-restaurant_type I-restaurant_type O B-country O B-party_size_number,BookRestaurant
+look up the,O O O B-object_type I-object_type,SearchScreeningEvent
+book a table for at in,O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-restaurant_name I-restaurant_name I-restaurant_name O B-country I-country,BookRestaurant
+find,O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find the for,O O B-object_type I-object_type O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+will i be able to watch at at,O O O O O O B-movie_name O B-object_location_type I-object_location_type O B-timeRange I-timeRange,SearchScreeningEvent
+play by,O B-album I-album I-album I-album O B-artist I-artist,PlayMusic
+what s the weather like in,O O O O O O B-city B-state,GetWeather
+play some music,O O B-genre O,PlayMusic
+give this out of,O O B-object_select B-object_type B-rating_value O O B-best_rating,RateBook
+rate,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+how is the weather right at my,O O O O O B-timeRange O O B-current_location I-current_location,GetWeather
+play music by,O B-year O O B-artist I-artist I-artist,PlayMusic
+tell me the weather forecast for time,O O O O O B-spatial_relation I-spatial_relation B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi O B-timeRange O,GetWeather
+play the last relaesd,O O O B-artist I-artist B-music_item O,PlayMusic
+play by,O B-track I-track O B-artist I-artist,PlayMusic
+find the for at the,O O B-object_type O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O B-spatial_relation B-object_location_type B-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+play the,O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+i want to give the out of,O O O O O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+show me for playing,O O B-object_type I-object_type O B-movie_type I-movie_type O B-timeRange I-timeRange I-timeRange I-timeRange B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+find the,O O B-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+add this to the playlist,O O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+show me the playing at,O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name O B-timeRange I-timeRange,SearchScreeningEvent
+what s it like in right,O O O O O B-country O B-timeRange,GetWeather
+can you add to the playlist called,O O O B-entity_name I-entity_name I-entity_name I-entity_name O O O O B-playlist I-playlist,AddToPlaylist
+on what will it feel like in or the area from it,O B-timeRange I-timeRange I-timeRange O O O O O O B-state O O O B-spatial_relation I-spatial_relation O O,GetWeather
+i need a table in when it s,O O O O O B-country B-timeRange I-timeRange I-timeRange O O O B-condition_temperature,GetWeather
+add this by to,O O B-music_item O B-artist I-artist O B-playlist I-playlist,AddToPlaylist
+plan an by,O O B-music_item O B-artist I-artist,PlayMusic
+add to,O B-music_item O B-playlist,AddToPlaylist
+can you tell me the weather forecast for,O O O O O O O O B-country,GetWeather
+play music on,O O O B-service,PlayMusic
+add to list,O B-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+i need a table for at any for that also serves,O O O O O B-timeRange I-timeRange I-timeRange I-timeRange O O B-restaurant_type O B-party_size_number B-spatial_relation B-state O O O B-served_dish I-served_dish I-served_dish,BookRestaurant
+book a spot at the in,O O O O O B-restaurant_type I-restaurant_type O B-state,BookRestaurant
+want to eat food at a in,B-timeRange I-timeRange I-timeRange I-timeRange B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description O O O B-cuisine O O O B-restaurant_type O B-spatial_relation B-state,BookRestaurant
+find a called,O O B-object_type I-object_type O B-object_name,SearchCreativeWork
+find with a,O B-movie_type I-movie_type B-spatial_relation I-spatial_relation O O B-object_type I-object_type,SearchScreeningEvent
+book a spot for at an in,O O O O B-party_size_number O O B-facility B-restaurant_type I-restaurant_type O B-country,BookRestaurant
+i would rate and a best rating of,O O O B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit O O O O O B-best_rating,RateBook
+i need a reservation for at a that serves,O O O O O B-timeRange I-timeRange I-timeRange O O B-restaurant_type O O B-served_dish,BookRestaurant
+find,O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+i need a reservation for at a in,O O O O O B-party_size_number O O B-restaurant_type O B-state I-state,BookRestaurant
+what time is playing,O O O B-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+will there be a in,O O O O B-condition_description O B-city I-city B-country,GetWeather
+play the from artist,O O B-sort B-music_item O O B-artist,PlayMusic
+are any playing at,O O B-movie_type I-movie_type O O B-location_name I-location_name I-location_name,SearchScreeningEvent
+give the a,O O B-object_select B-object_type O B-rating_value,RateBook
+i want to add to playlist called,O O O O B-entity_name I-entity_name O B-playlist_owner O O B-playlist,AddToPlaylist
+the gets,O B-object_select B-object_type O B-rating_value B-rating_unit,RateBook
+what will the weather be in at,O O O O O O B-city I-city B-state O B-timeRange I-timeRange,GetWeather
+can you find me a for,O O O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+add the singer to playlists,O O O B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add in playlist,O B-music_item O B-playlist_owner O B-playlist I-playlist,AddToPlaylist
+what can i see,O B-movie_type O O O B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+tell me what are playing at,O O O B-movie_type O O O B-location_name I-location_name,SearchScreeningEvent
+add to the playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O O B-playlist I-playlist O,AddToPlaylist
+find,O B-object_type I-object_type,SearchScreeningEvent
+rate the a,O O B-object_type B-object_name I-object_name I-object_name I-object_name O B-rating_value,RateBook
+play s,O B-artist I-artist O B-album I-album I-album I-album,PlayMusic
+add the to the playlist,O O B-music_item O O B-playlist I-playlist I-playlist O,AddToPlaylist
+can you put a by on playlist entitled,O O O O B-music_item O B-artist I-artist O B-playlist_owner O O B-playlist I-playlist I-playlist,AddToPlaylist
+show,O B-object_type I-object_type,SearchScreeningEvent
+show me for today,O O B-object_type I-object_type O O,SearchScreeningEvent
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+will it be,O O O B-condition_temperature B-current_location B-timeRange I-timeRange I-timeRange,GetWeather
+forecast for,O O B-country,GetWeather
+i want to give a,O O O O B-object_name I-object_name I-object_name O B-rating_value,RateBook
+where can i view the,O O O O O B-object_type B-object_name I-object_name,SearchCreativeWork
+in will it be at,O B-state O O O B-condition_temperature O B-timeRange I-timeRange,GetWeather
+rate,O B-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+rate the of,O O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit,RateBook
+i want a table for at a with food in for,O O O O O B-party_size_number O O B-restaurant_type O B-cuisine O O B-state O B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+find a,O B-object_name I-object_name I-object_name I-object_name I-object_name O B-object_type,SearchCreativeWork
+please play me a from,O O O O B-sort B-music_item O B-year,PlayMusic
+book a for,O O B-cuisine B-restaurant_type O B-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+how will the weather be different in,O O O O O O B-timeRange I-timeRange I-timeRange I-timeRange O B-city,GetWeather
+search for,O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+play,O B-playlist I-playlist,PlayMusic
+what is the forecast in,O O O B-city O O B-state,GetWeather
+find,O B-movie_name I-movie_name,SearchScreeningEvent
+which is the playing,O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+can i have the for,O O O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+book me a reservation for for the in,O O O O O B-party_size_number O O B-sort B-restaurant_type B-timeRange I-timeRange I-timeRange I-timeRange O B-city,BookRestaurant
+play on,O B-artist I-artist O B-service,PlayMusic
+show creative,O B-object_name I-object_name I-object_name I-object_name O B-object_type,SearchCreativeWork
+play the,O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+table for at a,O O B-party_size_number O O B-sort B-restaurant_type I-restaurant_type,BookRestaurant
+find me a table for people at a,O O O O O B-party_size_number O O O B-spatial_relation B-state B-restaurant_type B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+is there in,O O B-condition_description B-timeRange O B-state,GetWeather
+show me the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find,O B-object_type I-object_type,SearchScreeningEvent
+find for,O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+what is the forecast for at,O O O O O B-state O B-timeRange,GetWeather
+please add this to playlist,O O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+book me a please,O O O B-restaurant_type O,BookRestaurant
+find a,O B-object_name I-object_name I-object_name I-object_name O B-object_type,SearchCreativeWork
+play from,O B-album I-album I-album I-album O B-artist I-artist,PlayMusic
+play,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+list for playing,O B-object_type I-object_type O B-movie_type O B-spatial_relation I-spatial_relation,SearchScreeningEvent
+i am looking for the called the,O O O O O B-object_type I-object_type O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+add to list,O B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+play me songs from the,O O B-artist I-artist O O O B-year,PlayMusic
+add this to playist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-music_item O B-playlist I-playlist I-playlist O,AddToPlaylist
+need to see,O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name B-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+give out of to the,O B-rating_value O O B-best_rating B-rating_unit O O B-object_select B-object_type,RateBook
+i would like to book a for in in,O O O O O O B-restaurant_type O B-party_size_number O B-timeRange I-timeRange I-timeRange I-timeRange O B-city,BookRestaurant
+play some music like the from,O O B-service I-service O O O B-year B-music_item O B-artist,PlayMusic
+where is the playing,O O O B-spatial_relation B-object_location_type O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+i m hoping you can find a from,O O O O O O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+what are,O B-movie_type O B-spatial_relation I-spatial_relation,SearchScreeningEvent
+book a from,O O B-restaurant_type B-spatial_relation O B-poi,BookRestaurant
+find an,O B-object_name I-object_name I-object_name O B-object_type,SearchCreativeWork
+please play,O O B-track I-track I-track,PlayMusic
+find a called,O O B-object_type I-object_type O B-object_name,SearchCreativeWork
+is at the,O B-movie_name I-movie_name I-movie_name I-movie_name O O B-location_name I-location_name I-location_name,SearchScreeningEvent
+award this,O O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+weather for,O O B-timeRange I-timeRange B-current_location,GetWeather
+what are playing at the,O B-movie_type I-movie_type O O O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+rate of,O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit,RateBook
+i want to go see,O O O O O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+was awful i m giving it a out of,B-object_name O O O O O O O B-rating_value O O B-best_rating,RateBook
+show me the of,O O O B-object_type O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+book a table for people in,O O O O B-party_size_number O O B-country I-country I-country I-country,BookRestaurant
+i would give a best rating of and a value of,O O O B-object_name I-object_name I-object_name I-object_name O O O O B-best_rating O O O O B-rating_value,RateBook
+what are playing,O B-movie_type I-movie_type O O B-spatial_relation,SearchScreeningEvent
+will there be a at,O O O O B-condition_description B-current_location O B-timeRange,GetWeather
+i want to give the,O O O O O B-object_part_of_series_type B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+i d like to know when i can see at,O O O O O O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O B-location_name I-location_name,SearchScreeningEvent
+play by,O B-album I-album I-album I-album O B-artist I-artist,PlayMusic
+book a reservation for from,O O O O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name B-spatial_relation O B-poi,BookRestaurant
+add to playlist,O B-artist O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+show me the,O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+find a in that servec,O O B-restaurant_type O B-state O O B-served_dish,BookRestaurant
+i would give this with a best rating of,O O O O B-object_select B-object_type B-rating_value B-rating_unit O O O O O B-best_rating,RateBook
+i want to book a in for,O O O O O B-cuisine B-restaurant_type O B-state O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+is in the weather forecast for,O B-condition_description O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+add to playlist,O B-music_item O B-playlist I-playlist O,AddToPlaylist
+make a reservation in a place for me only,O O O O O B-sort B-cuisine B-restaurant_type O B-spatial_relation O O O B-timeRange,BookRestaurant
+i need a table for,O O O O O B-party_size_number,BookRestaurant
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist O,AddToPlaylist
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+what will the weather be like in the area,O O O O O O B-timeRange I-timeRange O O O B-spatial_relation B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+i need a table in on at,O O O O O B-city O B-timeRange I-timeRange I-timeRange O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+i need a table for at in,O O O O O B-party_size_number O B-restaurant_name I-restaurant_name O B-country,BookRestaurant
+how do i get the,O O O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+i would like to make a reservation for for,O O O O O O O O B-party_size_number O B-timeRange,BookRestaurant
+need a table for party of for in the state of,O O O O O O B-party_size_number O B-timeRange I-timeRange I-timeRange O O O O B-state,BookRestaurant
+book me a for in,O O O B-restaurant_type O B-party_size_number O B-city,BookRestaurant
+i d like a table for at,O O O O O O B-party_size_number B-timeRange I-timeRange I-timeRange O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+find a for showing,O O B-object_location_type I-object_location_type O B-timeRange O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+what is the,O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+i want to eat to,O O O O B-spatial_relation O B-city B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+for playlist add the name,O B-playlist_owner O B-playlist O O O B-entity_name I-entity_name I-entity_name,AddToPlaylist
+search for the,O O O B-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+find,O B-object_type I-object_type,SearchScreeningEvent
+play list,O B-playlist O,PlayMusic
+tell me what i can see at the,O O O B-movie_type I-movie_type O O O O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+i d like to see the,O O O O O O B-object_type B-object_name I-object_name,SearchCreativeWork
+what time is showing at the,O O O B-movie_name I-movie_name O O O B-object_location_type I-object_location_type,SearchScreeningEvent
+play the,O O B-object_type B-object_name I-object_name,SearchCreativeWork
+is it forecast to be in,O O O O O B-condition_temperature O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+add this to playlist,O O B-music_item O B-playlist_owner I-playlist_owner B-playlist I-playlist O,AddToPlaylist
+play a by,O O B-music_item O B-artist I-artist I-artist,PlayMusic
+i rate a of,O O B-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O B-best_rating,RateBook
+what time is playing at the,O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O O B-object_location_type I-object_location_type,SearchScreeningEvent
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+i d like to watch,O O O O O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+what are the showtimes for,O O O B-location_name I-location_name O O B-movie_name I-movie_name,SearchScreeningEvent
+will there be in,O O O B-condition_description O B-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+play music on sort by,O B-artist I-artist O O B-service O O B-sort,PlayMusic
+rate of,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating,RateBook
+look up the,O O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+i m looking for the called,O O O O O B-object_type I-object_type O B-object_name,SearchCreativeWork
+play the,O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+i give out of,O O B-object_name I-object_name I-object_name B-rating_value B-rating_unit O O B-best_rating,RateBook
+play,O B-playlist I-playlist I-playlist I-playlist I-playlist,PlayMusic
+add to playlist,O B-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+what time is playing at,O O O B-movie_name I-movie_name I-movie_name O O B-location_name I-location_name,SearchScreeningEvent
+add to list,O B-entity_name O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+the earns from me,O B-object_part_of_series_type B-object_name I-object_name O B-rating_value B-rating_unit O O,RateBook
+find,O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+show me the showing,O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+play music from on sort by,O B-music_item O O B-artist I-artist O B-service O O B-sort,PlayMusic
+play the,O O B-music_item B-track I-track I-track,PlayMusic
+book a of cuisine,O O B-sort B-restaurant_type O B-cuisine O,BookRestaurant
+which are playing and when,O B-movie_type I-movie_type O O B-spatial_relation I-spatial_relation I-spatial_relation O O,SearchScreeningEvent
+i want to listen to the,O O O O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+i d like to eat at the,O O O O O O O B-sort B-restaurant_type,BookRestaurant
+is it going to be in in,O O O O O B-condition_temperature O B-country I-country O B-timeRange I-timeRange,GetWeather
+i want to book a for,O O O O O B-restaurant_type O B-party_size_number B-spatial_relation B-city,BookRestaurant
+rate of,O B-object_name I-object_name I-object_name B-rating_value O B-best_rating B-rating_unit,RateBook
+the is rated in my opinion,O B-object_type B-object_name I-object_name I-object_name O O B-rating_value B-rating_unit O O O,RateBook
+i want to book a in,O O O O O B-restaurant_type O B-city B-state,BookRestaurant
+i m looking for the,O O O O B-object_name I-object_name I-object_name O B-object_type I-object_type,SearchCreativeWork
+can you make reservations at a that serves,O O O O O O B-restaurant_type I-restaurant_type O O B-served_dish,BookRestaurant
+put a by into playlist,O O B-music_item O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+put some into playlist,O O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+what is the forecast for,O O O O O B-country,GetWeather
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+add this to playlist called,O O B-artist I-artist I-artist B-music_item O B-playlist_owner O O B-playlist I-playlist I-playlist,AddToPlaylist
+is it going to in,O O O O B-condition_description B-timeRange I-timeRange O B-state,GetWeather
+is playing at the at,O B-movie_name I-movie_name I-movie_name I-movie_name O O O B-spatial_relation B-object_location_type O B-timeRange,SearchScreeningEvent
+show me the new showings for,O O O O O O B-movie_type I-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+play the,O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+i want to go to or by and book seats for,O O O O O B-poi I-poi I-poi O B-spatial_relation O O O O O B-party_size_number,BookRestaurant
+i need to add to the playlist favorite,O O O O O O B-playlist I-playlist I-playlist O B-playlist_owner O B-music_item,AddToPlaylist
+i want to book a for in,O O O O O B-restaurant_type O B-party_size_number O B-city,BookRestaurant
+where can i watch,O O O O B-object_type I-object_type B-object_name I-object_name,SearchCreativeWork
+play an from the on,O O B-artist I-artist B-music_item I-music_item O O B-year O B-service,PlayMusic
+i d like to eat at a in with a party of,O O O O O O O B-sort B-restaurant_type O B-country O O O O B-party_size_number,BookRestaurant
+what s the forecast for my at,O O O O O O B-current_location I-current_location O B-timeRange I-timeRange,GetWeather
+give out of,O B-object_name I-object_name B-rating_value B-rating_unit O O B-best_rating,RateBook
+will it be in,B-timeRange I-timeRange I-timeRange O O O B-condition_description O B-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+how will it be in on,O B-condition_temperature O O O O B-state O B-timeRange I-timeRange,GetWeather
+i d like to put onto,O O O O O B-entity_name O B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+will it be in,O O O B-condition_temperature O B-city B-state,GetWeather
+add to playlist,O B-artist O B-playlist_owner I-playlist_owner B-playlist I-playlist O,AddToPlaylist
+what s the weather forecast for on,O O O O O O B-country O B-timeRange I-timeRange,GetWeather
+find titled,O B-object_type I-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+open on and play a starting with the,O B-artist I-artist O B-service O O O B-music_item O O O B-sort,PlayMusic
+please add to playlist,O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist,AddToPlaylist
+whats the weather in,O O O O B-state,GetWeather
+i rate the with of,O O O B-object_part_of_series_type B-object_name I-object_name I-object_name I-object_name O B-rating_value O B-best_rating B-rating_unit,RateBook
+add to,O B-entity_name O B-playlist I-playlist,AddToPlaylist
+will there be coverage in,O O O B-condition_description O O B-city B-country,GetWeather
+rate of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating,RateBook
+will it in,O O B-condition_description O B-city,GetWeather
+play me a,O O O B-artist I-artist B-music_item,PlayMusic
+find the,O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+i want to hear the,O O O O O B-artist I-artist B-music_item I-music_item,PlayMusic
+what is the forecast for conditions,O O O O O B-condition_description O B-current_location B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+book a table at for on,O O O O B-restaurant_name I-restaurant_name I-restaurant_name O B-party_size_number O B-timeRange I-timeRange I-timeRange,BookRestaurant
+show creative of,O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+rate out of,O B-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+find,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+play a on,O O B-year B-music_item I-music_item O B-service,PlayMusic
+weather for in the,O O B-state O O B-timeRange,GetWeather
+play a by,O O B-music_item O B-artist I-artist,PlayMusic
+is there a in,O O O B-condition_description O B-country,GetWeather
+will it be nice on in,O O O O O B-timeRange I-timeRange I-timeRange O B-city B-country,GetWeather
+i d like for you to put this to playlist,O O O O O O O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+play the,O O B-object_name I-object_name B-object_type,SearchCreativeWork
+give me the for,O O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+i need current,O O O B-object_type I-object_type,SearchScreeningEvent
+add to playlist,O B-entity_name I-entity_name I-entity_name O B-playlist_owner I-playlist_owner B-playlist I-playlist O,AddToPlaylist
+play by,O B-music_item O B-artist I-artist I-artist,PlayMusic
+give to,O B-rating_value B-rating_unit O B-object_select B-object_type,RateBook
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+put on playlist,O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+weather for the time in,O O O B-timeRange O O B-state I-state,GetWeather
+add to playlist,O B-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+find me a with the name,O O O B-object_type O O O B-object_name,SearchCreativeWork
+add to,O B-artist I-artist I-artist O B-playlist I-playlist,AddToPlaylist
+show me movie time for at my,O O O O O B-movie_name I-movie_name I-movie_name O O B-object_location_type I-object_location_type,SearchScreeningEvent
+please add to playlist,O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist,AddToPlaylist
+add to,O B-artist I-artist B-music_item O B-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add an by to playlist,O O B-music_item O B-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+will it be a in,O O O O B-condition_description B-timeRange O B-city,GetWeather
+rate a out of,O B-object_select B-object_type O B-rating_value O O B-best_rating,RateBook
+find the for at,O O B-object_type I-object_type O B-movie_type I-movie_type B-spatial_relation O B-timeRange I-timeRange,SearchScreeningEvent
+add to playlist,O B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+give a,O B-object_select B-object_part_of_series_type O B-rating_value,RateBook
+i m looking for a place with that can serve a party of,O O O O O B-restaurant_type O O B-facility O O O O O O B-party_size_number,BookRestaurant
+what time is playing,O O O B-movie_name I-movie_name O,SearchScreeningEvent
+book the in,O O B-restaurant_name I-restaurant_name O B-city B-state,BookRestaurant
+what are playing,O B-movie_type O O B-location_name I-location_name,SearchScreeningEvent
+rate of,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating,RateBook
+i d like to watch,O O O O O B-movie_name I-movie_name,SearchScreeningEvent
+play some music on,O O O O B-service,PlayMusic
+i want to rate out of,O O O O B-object_name I-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+add to playlist,O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+what is the weather forecast for,O O O O O O B-spatial_relation B-country,GetWeather
+i want to watch,O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+listen to,O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+add to list,O B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to,O B-entity_name I-entity_name O B-playlist I-playlist,AddToPlaylist
+book at table at for,O O O O B-poi I-poi B-restaurant_type B-spatial_relation O B-party_size_number B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+can you get me the of,O O O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+are there at,O O B-movie_type O B-location_name I-location_name,SearchScreeningEvent
+rate the out of,O O B-object_select B-object_part_of_series_type I-object_part_of_series_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+can i get the,O O O O B-object_type I-object_type,SearchScreeningEvent
+i want to add to playlist,O O O O B-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+play some on,O O B-genre O B-service,PlayMusic
+what is the forecast for,O O O B-condition_temperature O O B-country I-country I-country,GetWeather
+pull up,O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+put rating on,O B-rating_value O O B-object_name I-object_name I-object_name,RateBook
+show me the,O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+which are playing at the,O B-movie_type O O O O B-spatial_relation B-object_location_type,SearchScreeningEvent
+add this by to playlist,O O B-music_item O B-artist I-artist O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+where can i see the,O O O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+book me a table for at a in,O O O O O B-party_size_number O O B-sort I-sort B-restaurant_type O B-country,BookRestaurant
+will there be a in,O O O O B-condition_description O B-city,GetWeather
+add this to playlist,O O B-music_item O B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+can i get the showtimes for the,O O O O B-movie_type O O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+do you have something like by,O O O O O B-track I-track I-track O B-artist I-artist,PlayMusic
+what is the weather forecast for,O O O O O O B-city,GetWeather
+please make reservations in for at a,O O O O B-city O B-timeRange I-timeRange O O B-sort I-sort B-cuisine B-restaurant_type,BookRestaurant
+play me a,O O O B-year B-music_item I-music_item,PlayMusic
+where can i find,O O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+i need to have s placed onto the playlist,O O O O B-artist I-artist O B-music_item O O O B-playlist I-playlist I-playlist O,AddToPlaylist
+can i get the for,O O O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+i d like to watch,O O O O O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+i d like to watch,O O O O O B-movie_name I-movie_name,SearchScreeningEvent
+show creativity of,O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+is playing,O B-movie_name I-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+show me the current,O O O O B-object_type I-object_type,SearchScreeningEvent
+rate,O B-object_name I-object_name I-object_name B-rating_value,RateBook
+i want to add another to the playlist,O O O O O B-music_item O O B-playlist I-playlist I-playlist O,AddToPlaylist
+add another to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+play a by from,O O B-music_item O B-artist I-artist O B-service,PlayMusic
+is it season in,O O B-condition_description O O B-city I-city,GetWeather
+give to,O B-rating_value B-rating_unit O B-object_name I-object_name I-object_name,RateBook
+add this to list,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+what are the current,O O O O B-object_type I-object_type,SearchScreeningEvent
+what is the showtime for,O O O O O B-movie_name,SearchScreeningEvent
+list at,O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+what are showing,O B-movie_type O O B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+play my playlist on,O O O B-playlist O B-service,PlayMusic
+what will the weather be like on in,O O O O O O O B-timeRange I-timeRange I-timeRange O B-state,GetWeather
+what are playing and when,O B-movie_type I-movie_type O O B-spatial_relation I-spatial_relation I-spatial_relation O O,SearchScreeningEvent
+book a spot at that is,O O O O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name O O B-spatial_relation B-state,BookRestaurant
+can you find me the,O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+add to,O B-artist I-artist O B-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+play the,O O B-music_item B-album I-album,PlayMusic
+i m looking for the,O O O O O B-object_name I-object_name I-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+place this onto playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+where can i see the for,O O O O O B-object_type O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+list at,O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+will it be at in,O O O B-condition_temperature O B-timeRange O B-city B-country,GetWeather
+what is the weather in,O O O O O B-city I-city,GetWeather
+get,O B-object_name I-object_name B-object_type,SearchCreativeWork
+please book a room in for at,O O O O O B-restaurant_name I-restaurant_name O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-timeRange I-timeRange,BookRestaurant
+what is the forecast for,O O O B-state O O B-city I-city,GetWeather
+i need to book a for,O O O O O B-sort B-restaurant_type B-timeRange I-timeRange O B-party_size_number B-spatial_relation B-country,BookRestaurant
+will it be at my,O O O B-condition_temperature O O B-current_location I-current_location B-timeRange I-timeRange I-timeRange,GetWeather
+show me,O O B-object_name I-object_name,SearchCreativeWork
+what is the weather forecast for,O O O O O O B-spatial_relation B-state B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+will it be on in,O O O B-condition_temperature O B-timeRange O B-city I-city B-state,GetWeather
+i need the wather for in the,O O O O O B-timeRange I-timeRange O O B-country,GetWeather
+add to playlist,O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+i would like to book the with food as for,O O O O O O B-sort B-restaurant_type I-restaurant_type O B-cuisine O B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-state O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+i d like to see the,O O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+rate out of,O B-object_select B-object_part_of_series_type B-rating_value O O B-best_rating,RateBook
+find,O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+book a with,O O B-restaurant_type B-spatial_relation I-spatial_relation B-poi I-poi I-poi I-poi I-poi O B-served_dish B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+add this to,O O B-music_item O B-playlist I-playlist I-playlist,AddToPlaylist
+find time for,O O O B-object_type I-object_type B-timeRange,SearchScreeningEvent
+i would like to book a with,O O O O O O B-sort I-sort B-restaurant_type O B-cuisine B-spatial_relation B-state B-timeRange I-timeRange,BookRestaurant
+find,O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+is it on in,O O B-condition_temperature O B-timeRange I-timeRange I-timeRange O B-city B-country I-country,GetWeather
+i need to take people to eat,O O O O B-party_size_number O O O,BookRestaurant
+play a,O O B-year B-music_item,PlayMusic
+show me the of in,O O O B-object_type O B-movie_name I-movie_name I-movie_name I-movie_name O B-object_location_type B-spatial_relation,SearchScreeningEvent
+play the from the by,O O B-sort I-sort B-music_item O O B-year O B-artist I-artist,PlayMusic
+show creativity of of,O O O B-object_type O B-object_name I-object_name I-object_name,SearchCreativeWork
+book a table in the for at,O O O O O B-country I-country O B-party_size_number O B-restaurant_name I-restaurant_name,BookRestaurant
+i d like to book a in,O O O O O O B-restaurant_type O B-city I-city B-state,BookRestaurant
+will it be in,O O O B-condition_temperature B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-state,GetWeather
+rate the out of,O O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+is it going to get,O O O O O B-condition_temperature B-spatial_relation B-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+for the i rate of,O O B-object_select B-object_part_of_series_type O O B-rating_value O B-best_rating B-rating_unit,RateBook
+i want to play the,O O O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+rate the a,O O B-object_select B-object_type O B-rating_value,RateBook
+rate of,O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit,RateBook
+is it going to be at in,O O O O O B-condition_temperature O B-timeRange I-timeRange O B-state,GetWeather
+what s the weather in,O O O O O B-city,GetWeather
+add to,O B-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist,AddToPlaylist
+tell me the weather forecast for,O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+add a to the playlist,O O B-artist I-artist B-music_item O O B-playlist I-playlist O,AddToPlaylist
+rate of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating B-rating_unit,RateBook
+i m looking for,O O O O B-object_name I-object_name,SearchCreativeWork
+gets a,B-object_select B-object_type O O B-rating_value,RateBook
+show me the,O O O B-object_type I-object_type,SearchScreeningEvent
+add to,O B-music_item O B-playlist_owner B-playlist I-playlist,AddToPlaylist
+play the,O O B-object_type B-object_name,SearchCreativeWork
+find,O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+play,O B-artist I-artist B-music_item B-album I-album I-album,PlayMusic
+book a spot at a of,O O O O O B-restaurant_type B-spatial_relation I-spatial_relation I-spatial_relation O B-state,BookRestaurant
+find me the,O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+find for,O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+add to,O B-entity_name I-entity_name O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+shw the,O O B-object_type B-object_name I-object_name,SearchCreativeWork
+rate a,O B-object_name I-object_name I-object_name I-object_name O B-rating_value,RateBook
+play the from,O O B-year B-music_item O B-artist I-artist,PlayMusic
+find an called,O O B-object_type O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+play,O B-album I-album I-album,PlayMusic
+i want to hear s songs from the,O O O O B-artist I-artist O O O O B-year,PlayMusic
+book a in,O O B-restaurant_type O B-city,BookRestaurant
+rate of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O B-best_rating,RateBook
+play music,O B-genre I-genre O,PlayMusic
+look for a of,O O O B-object_type O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+what is the like in on,O O O B-condition_description O O B-spatial_relation O B-state,GetWeather
+i d like to eat at an with a party of,O O O O O O O B-facility B-restaurant_type O O O O B-party_size_number,BookRestaurant
+when is playing,O O B-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+play s,O B-artist O B-album,PlayMusic
+add to,O B-music_item O B-playlist I-playlist,AddToPlaylist
+rate,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+i am giving this out of,O O O O B-object_select B-object_type I-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+play artist from something he did that is,O O B-artist I-artist O O O O O O B-sort,PlayMusic
+what will the be in at,O O O B-condition_description O O B-city B-state O B-timeRange I-timeRange,GetWeather
+add to,O B-entity_name I-entity_name O B-playlist I-playlist,AddToPlaylist
+what are the,O O O B-movie_type B-object_type I-object_type B-spatial_relation,SearchScreeningEvent
+i want to hear some songs from the,O O O O O O O O B-year,PlayMusic
+please make reservations for at,O O O O B-party_size_number O B-timeRange I-timeRange,BookRestaurant
+can you pull up,O O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+lets hear some from their from,O O O B-artist I-artist O O B-album I-album I-album I-album I-album B-music_item O B-service I-service,PlayMusic
+will it get in,O O O B-condition_description O B-city I-city,GetWeather
+book a spot for at a at,O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-restaurant_type O B-timeRange,BookRestaurant
+add this to,O O B-artist I-artist B-music_item O B-playlist_owner B-playlist I-playlist,AddToPlaylist
+i want to add a by,O O O O O B-music_item O B-playlist I-playlist,AddToPlaylist
+rate,O B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+book a that serves for at,O O B-restaurant_type O O B-cuisine O B-party_size_number O B-timeRange,BookRestaurant
+play the,O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+show,O B-object_name I-object_name B-object_type,SearchCreativeWork
+will it be in,O O O B-condition_temperature O B-city I-city,GetWeather
+show weather while in,O O O B-timeRange B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-state I-state,GetWeather
+table for somewhere in,O O B-party_size_number O O B-city,BookRestaurant
+i would like to add something by to playlist,O O O O O O O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add to,O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+where can i see,O O O O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+the gets a rating,O B-object_select B-object_type O O B-rating_value O,RateBook
+add to,O B-artist B-music_item O B-playlist I-playlist I-playlist,AddToPlaylist
+show me,O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please add this this to the playlist,O O O O B-music_item O O O B-playlist I-playlist I-playlist,AddToPlaylist
+what will the weather be in,O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi B-timeRange I-timeRange I-timeRange I-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+can you put s onto the soundtrack,O O O B-artist I-artist I-artist O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+i want to add to,O O O O B-artist I-artist O B-playlist I-playlist I-playlist,AddToPlaylist
+show me the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+where s the playing,O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+put a onto,O O B-artist I-artist B-music_item O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+can you add a by to playlist,O O O O B-music_item O B-artist I-artist O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+play the by,O O B-music_item B-album O B-artist I-artist I-artist,PlayMusic
+add to,O B-artist I-artist O B-playlist I-playlist,AddToPlaylist
+can you play any from the,O O O O B-music_item O O B-year,PlayMusic
+show,O B-object_name I-object_name I-object_name,SearchCreativeWork
+i m looking for a called,O O O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+find,O B-object_name I-object_name I-object_name,SearchCreativeWork
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist O,AddToPlaylist
+is it going to in,O O O O B-condition_description O B-city I-city B-state,GetWeather
+show the at,O O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+i want to read the,O O O O O B-object_type B-object_name I-object_name,SearchCreativeWork
+book me a table for at in,O O O O O B-party_size_number O B-restaurant_name I-restaurant_name I-restaurant_name O B-country I-country,BookRestaurant
+rate this titled,O O B-object_type O B-object_name I-object_name B-rating_value B-rating_unit,RateBook
+book a for person at,O O B-restaurant_type O B-party_size_number O O B-timeRange I-timeRange,BookRestaurant
+weather for,O O B-city B-state,GetWeather
+will there be alot of on in,O O O O O B-condition_description O B-timeRange I-timeRange O B-city I-city B-country,GetWeather
+i d like a reservation at a place in for,O O O O O O O O O B-country O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+show me for at,O O B-object_type I-object_type O B-movie_type I-movie_type B-spatial_relation I-spatial_relation O B-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+i give this a rating,O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O,RateBook
+play some,O O B-genre I-genre,PlayMusic
+add to playlist this,O O B-playlist_owner O B-playlist I-playlist I-playlist O B-music_item,AddToPlaylist
+find a called,O O B-object_type I-object_type O B-object_name I-object_name,SearchCreativeWork
+find,O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+rate out of,O B-object_select B-object_type B-rating_value B-rating_unit O O B-best_rating,RateBook
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating,RateBook

@@ -1,0 +1,701 @@
+text,slot,intent
+i d like to have this onto playlist,O O O O O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add the to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-playlist I-playlist O B-playlist_owner B-entity_name I-entity_name I-entity_name O,AddToPlaylist
+add this by to playlist,O O B-music_item O B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add this to,O O B-music_item O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+i need to add to the under name,O O O O B-artist I-artist O O B-playlist I-playlist O B-playlist_owner O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+to the playlist please add this,O O B-playlist O O O O B-artist I-artist B-music_item,AddToPlaylist
+please add some to playlist,O O O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+i d like for s to be an addition to playlist,O O O O B-artist I-artist O B-music_item O O O O O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+add to,O B-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add music to the playlist,O B-artist I-artist O O O B-playlist I-playlist O,AddToPlaylist
+put onto,O B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add the by the to gym playlist,O O B-music_item B-playlist I-playlist I-playlist O O B-artist I-artist O B-playlist_owner O O,AddToPlaylist
+onto please add the,O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist I-playlist O O O B-music_item,AddToPlaylist
+add in playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O O B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to the playlist,O B-artist I-artist O O B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item B-artist O O B-playlist I-playlist I-playlist O,AddToPlaylist
+add to,O B-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+put onto the playlist,O B-artist I-artist I-artist O O B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+can you add to playlist,O O O B-artist I-artist O B-playlist_owner B-playlist O,AddToPlaylist
+put s onto,O B-artist I-artist O B-music_item O B-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+i d like for you to add to playlist,O O O O O O O B-artist I-artist O B-playlist_owner B-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist B-music_item O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist,AddToPlaylist
+add this to the playlist,O O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add to the playlist,O B-entity_name I-entity_name I-entity_name O O B-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist O,AddToPlaylist
+add a to,O O B-music_item O B-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add in playlist called,O B-music_item O B-playlist_owner O O B-playlist I-playlist,AddToPlaylist
+can you put this from onto playlist,O O O O B-music_item O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add a to playlist,O O B-music_item O O B-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add a to,O O B-music_item O B-playlist I-playlist,AddToPlaylist
+add the to the playlist,O O B-artist I-artist B-music_item O O B-playlist O,AddToPlaylist
+add the to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-artist I-artist B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist I-playlist I-playlist O,AddToPlaylist
+can i put this onto playlist,O O O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+i d like to add onto the playlist,O O O O O B-artist I-artist O O B-playlist I-playlist I-playlist O,AddToPlaylist
+add to the soundtrack,O B-artist I-artist O O B-playlist O,AddToPlaylist
+add the to playlist,O O B-music_item B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+can you put the onto the playlist,O O O O B-music_item B-artist I-artist I-artist O O B-playlist I-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add the to playlist,O O B-music_item B-artist I-artist O B-playlist_owner B-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist I-playlist O,AddToPlaylist
+for can you add,O B-playlist_owner B-playlist I-playlist O O O B-artist I-artist,AddToPlaylist
+add the to the playlist,O O B-artist I-artist B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add to the playlist,O B-artist I-artist O O B-playlist I-playlist O,AddToPlaylist
+can you add to the playlist called,O O O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O O O O B-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add this to,O O B-music_item O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+put the onto,O O B-music_item O B-playlist I-playlist I-playlist,AddToPlaylist
+add music to playlist,O B-artist I-artist O O B-playlist I-playlist O,AddToPlaylist
+add in playlist,O B-entity_name I-entity_name O B-playlist_owner O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add newest to the playlist,O B-artist I-artist O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist B-music_item O O B-playlist,AddToPlaylist
+add the to playlist,O O B-music_item O B-playlist_owner B-playlist O,AddToPlaylist
+add this to playlist,O O B-music_item O B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add a to,O O B-artist I-artist B-music_item O B-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist I-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add the current to playlist,O O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+put onto the playlist,O B-artist I-artist O O B-playlist O,AddToPlaylist
+add to playlist,O B-entity_name O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+please add this by to the playlist,O O O B-music_item O B-artist I-artist O O B-playlist I-playlist O,AddToPlaylist
+can you add the current to playlist,O O O O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+please add to playlist,O O B-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner O B-playlist I-playlist I-playlist,AddToPlaylist
+add a to,O O B-music_item O B-playlist I-playlist,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist_owner O B-playlist I-playlist I-playlist,AddToPlaylist
+add to,O B-artist I-artist O B-playlist I-playlist I-playlist,AddToPlaylist
+add the to playlist,O O B-artist I-artist B-music_item O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add an to,O O B-music_item O B-playlist I-playlist I-playlist I-playlist I-playlist,AddToPlaylist
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+i need to add to list the works of,O O O O O B-playlist_owner B-playlist I-playlist I-playlist O O O O B-artist I-artist,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+add this to playlist,O O B-music_item O B-playlist_owner I-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+needs to be added to playlist,B-entity_name I-entity_name I-entity_name I-entity_name O O O O O B-playlist_owner B-playlist I-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist I-playlist O,AddToPlaylist
+add this to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add a to playlist,O O B-music_item O B-playlist_owner O B-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-artist I-artist O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add songs in,O B-artist I-artist O O B-playlist I-playlist I-playlist,AddToPlaylist
+add a in,O O B-music_item O B-playlist_owner B-playlist I-playlist I-playlist,AddToPlaylist
+add to playlist,O B-entity_name I-entity_name I-entity_name I-entity_name I-entity_name O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add the to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+add to playlist,O B-artist I-artist I-artist O B-playlist_owner B-playlist I-playlist I-playlist I-playlist O,AddToPlaylist
+add the to the playlist,O O B-music_item O O B-playlist I-playlist O,AddToPlaylist
+add the to playlist,O O B-music_item O B-playlist_owner B-playlist I-playlist O,AddToPlaylist
+book a reservation for,O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+book a reservation for a from,O O O O O B-restaurant_type B-spatial_relation I-spatial_relation O B-state,BookRestaurant
+i would like to book a in that is for,O O O O O O B-restaurant_type O B-country O O B-spatial_relation I-spatial_relation I-spatial_relation O B-party_size_description I-party_size_description I-party_size_description I-party_size_description,BookRestaurant
+book a reservation for an,O O O O O B-restaurant_type I-restaurant_type,BookRestaurant
+book a reservation for people for a in,O O O O B-party_size_number O O O B-cuisine B-restaurant_type O B-country,BookRestaurant
+i need a table in at a,O O O O O B-city O O B-cuisine I-cuisine B-restaurant_type,BookRestaurant
+book sot for,O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description B-spatial_relation B-poi I-poi,BookRestaurant
+book a reservation for a in on,O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O O O B-served_dish B-restaurant_type O B-city I-city B-state O B-timeRange I-timeRange,BookRestaurant
+book spot for at,O O O B-party_size_number O B-restaurant_name I-restaurant_name,BookRestaurant
+i want to book a for people in,O O O O O B-restaurant_type O B-party_size_number O O B-country I-country,BookRestaurant
+book me a reservation for the,O O O O O O B-sort B-restaurant_type,BookRestaurant
+book the table in for people at a,O O B-sort O O B-country O B-party_size_number O O O B-restaurant_type,BookRestaurant
+i want to book a in a,O O O O O B-restaurant_type O O B-facility,BookRestaurant
+book a that serves food for people,O O B-restaurant_type O O B-cuisine O O B-party_size_number O,BookRestaurant
+book spot for at an in,O O O B-party_size_number O O B-facility B-restaurant_type O B-state B-timeRange,BookRestaurant
+book a table in for,O O O O B-country O B-timeRange I-timeRange I-timeRange,BookRestaurant
+i want to book a for people in,O O O O O B-restaurant_type O B-party_size_number O O B-country I-country,BookRestaurant
+i need a table for at a in,O O O O O B-party_size_number O O B-sort I-sort B-restaurant_type O B-city B-state,BookRestaurant
+i want to book in,O O O O B-restaurant_name I-restaurant_name I-restaurant_name O B-city I-city,BookRestaurant
+i need a table for please confirm the reservation,O O O O O B-party_size_number O O O O,BookRestaurant
+book a for people,O O B-sort B-restaurant_type O B-party_size_number O,BookRestaurant
+i want to book a the for a for people,O O O O O B-restaurant_type B-spatial_relation I-spatial_relation O B-poi I-poi I-poi O O B-timeRange O B-party_size_number O,BookRestaurant
+i want to eat a that serves food,O O O O O B-restaurant_type B-timeRange I-timeRange I-timeRange O O B-cuisine I-cuisine O,BookRestaurant
+book a reservation for people at a in,O O O O B-party_size_number O O O B-restaurant_type O B-city,BookRestaurant
+book a reservation at for,O O O O B-restaurant_type O B-served_dish,BookRestaurant
+book spot for in,O O O B-party_size_number O B-country,BookRestaurant
+i want to book in for a party of,O O O O B-restaurant_name I-restaurant_name I-restaurant_name O B-city B-state B-timeRange O O O O B-party_size_number,BookRestaurant
+i want to book a in for for people,O O O O O B-restaurant_type O B-city I-city O B-timeRange I-timeRange O B-party_size_number O,BookRestaurant
+i want to book a for people,O O O O O B-sort B-restaurant_type O B-party_size_number O,BookRestaurant
+book a reservation for people in,O O O O B-party_size_number O O B-city B-state,BookRestaurant
+table for in,O O B-restaurant_name I-restaurant_name O B-state B-timeRange I-timeRange,BookRestaurant
+i want to book a in for people,O O O O O B-restaurant_type O B-country O B-party_size_number O,BookRestaurant
+book spot for,O O O B-party_size_number,BookRestaurant
+book me a reservation for a in for a party of,O O O O O O B-restaurant_type O B-city O O O O B-party_size_number,BookRestaurant
+book spot for at a,O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-restaurant_type I-restaurant_type,BookRestaurant
+i want to book a in,O O O O O B-cuisine B-restaurant_type O B-country,BookRestaurant
+book a reservation for to,O O O O B-restaurant_name I-restaurant_name I-restaurant_name B-spatial_relation O B-poi,BookRestaurant
+book spot for at in,O O O B-party_size_number O B-restaurant_name I-restaurant_name I-restaurant_name O B-city,BookRestaurant
+book a spot for at,O O O O B-party_size_description I-party_size_description I-party_size_description O B-city,BookRestaurant
+i want to book a for in,O O O O O B-restaurant_type O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-city B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+book a reservation,O O B-restaurant_type O B-timeRange I-timeRange I-timeRange,BookRestaurant
+book a reservation for a with a,O O O O O B-restaurant_type O O B-facility B-spatial_relation B-state,BookRestaurant
+book spot for at in,O O O B-party_size_number O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name O B-country,BookRestaurant
+i need a table for in at,O O O O O B-party_size_number O B-country I-country O B-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+i want to book a in for people,O O O O O B-restaurant_type O B-city B-timeRange I-timeRange I-timeRange I-timeRange O B-party_size_number O,BookRestaurant
+book in,O B-party_size_number O B-spatial_relation B-city,BookRestaurant
+i want to eat by in for a people,O O O O O B-timeRange I-timeRange O B-state O O B-party_size_number O,BookRestaurant
+i want to book in for people,O O O O B-restaurant_name I-restaurant_name I-restaurant_name O B-state I-state O B-party_size_number O,BookRestaurant
+book a reservation for at in,O O O O B-party_size_number O B-restaurant_name I-restaurant_name I-restaurant_name O B-city,BookRestaurant
+book a table at a,O O O O O B-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+book spot for in at,O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-country O B-timeRange,BookRestaurant
+can you book me a table at in,O O O O O O O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name O B-city B-state,BookRestaurant
+book me a table for at,O O O O O B-party_size_number B-timeRange I-timeRange O B-restaurant_name I-restaurant_name,BookRestaurant
+book spot for at at a in that serves,O O O B-party_size_number O B-timeRange I-timeRange O O B-restaurant_type O B-state O O B-served_dish I-served_dish,BookRestaurant
+i want to book a in for people,O O O O O B-restaurant_type B-spatial_relation O B-city O B-party_size_number O,BookRestaurant
+i need a table at in for,O O O O O B-restaurant_name I-restaurant_name I-restaurant_name O B-state O B-party_size_number,BookRestaurant
+book a reservation for an restaurant for people on,O O O O O B-restaurant_type O O B-party_size_number O O B-timeRange I-timeRange,BookRestaurant
+i want to book a by in for on,O O O O O B-sort B-restaurant_type B-spatial_relation O O B-state O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-timeRange,BookRestaurant
+book a reservation for at a in,O O O O B-party_size_number O O B-restaurant_type O B-state,BookRestaurant
+book a reservation for people at the restaurant,O O O O B-party_size_number O O O B-sort B-restaurant_type O,BookRestaurant
+book a table on for people in,O O O O B-timeRange O B-party_size_number O O B-state,BookRestaurant
+book a table,O O O B-spatial_relation B-poi I-poi I-poi,BookRestaurant
+i want to book a in,O O O O O B-restaurant_type O B-city I-city,BookRestaurant
+i want a table at in,O O O O O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name O B-city B-state,BookRestaurant
+like to book a seat in for the,O O O O O O B-country O O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+i want to book a table in a in,O O O O O O O O B-restaurant_type O B-country I-country,BookRestaurant
+i would like to book a for cuisine in the state of,O O O O O O B-restaurant_type O B-cuisine O O O O O B-state,BookRestaurant
+book a reservation for people at an with a of for,O O O O B-party_size_number O O O B-restaurant_type I-restaurant_type O O B-facility B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-city O B-timeRange I-timeRange,BookRestaurant
+book a reservation for for an at in,O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-cuisine B-restaurant_type O B-timeRange I-timeRange O B-state,BookRestaurant
+book a spot for in at,O O O O B-party_size_number O B-state O B-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+book a reservation for at a in,O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O B-restaurant_type O B-country I-country I-country,BookRestaurant
+book a reservation for people for a in,O O O O B-party_size_number O O O B-cuisine B-restaurant_type O B-city,BookRestaurant
+need a table at a,B-party_size_description I-party_size_description I-party_size_description I-party_size_description O O O O O B-restaurant_type B-timeRange I-timeRange I-timeRange,BookRestaurant
+book a reservation for at a in,O O O O B-party_size_number O O B-restaurant_type O B-state,BookRestaurant
+i want to book a that serves from here at in for people,O O O O O B-restaurant_type I-restaurant_type O O B-served_dish B-spatial_relation O O O B-timeRange O B-country O B-party_size_number O,BookRestaurant
+i want to book a for people in the,O O O O O B-restaurant_type I-restaurant_type O B-party_size_number O O O B-country I-country I-country I-country,BookRestaurant
+i want to book a for people,O O O O O B-restaurant_type O B-party_size_number O,BookRestaurant
+lets eat at,O O B-spatial_relation B-city B-timeRange I-timeRange I-timeRange I-timeRange O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+book sot for at a that serves in on,O O O B-party_size_number O O B-restaurant_type O O B-cuisine O B-city O B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+book a for at an cafe in,O O B-restaurant_type O B-party_size_number O O B-facility O O B-country,BookRestaurant
+book a table for at for,O O O O B-timeRange I-timeRange O B-poi I-poi I-poi I-poi I-poi I-poi B-spatial_relation I-spatial_relation I-spatial_relation O B-party_size_number,BookRestaurant
+please book me a table at a with a facility in,O O O O O O O B-restaurant_type O O B-facility O O B-country,BookRestaurant
+book spot for at a of,O O O B-party_size_number O O B-facility B-restaurant_type B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-state B-timeRange I-timeRange I-timeRange,BookRestaurant
+please book me a,O O O O B-restaurant_type,BookRestaurant
+book a reservation for at in,O O O O B-party_size_description I-party_size_description I-party_size_description I-party_size_description I-party_size_description O B-restaurant_name I-restaurant_name O B-city,BookRestaurant
+i want to book a in at for people,O O O O O B-restaurant_type O B-city O B-timeRange I-timeRange I-timeRange O B-party_size_number O,BookRestaurant
+table for at,O O B-timeRange I-timeRange I-timeRange O B-restaurant_name I-restaurant_name I-restaurant_name I-restaurant_name,BookRestaurant
+please book me a table at a which serves,O O O O O O O B-restaurant_type O O B-served_dish I-served_dish,BookRestaurant
+i want to book a for people in,O O O O O B-restaurant_type O B-party_size_number O O B-city B-state,BookRestaurant
+i would like to book a for a party of,O O O O O O B-sort I-sort B-restaurant_type O O O O B-party_size_number,BookRestaurant
+i want to book a in for people on,O O O O O B-cuisine B-restaurant_type B-spatial_relation O B-state O B-party_size_number O O B-timeRange,BookRestaurant
+book a party of at for,O O O O B-party_size_number O B-city O B-timeRange,BookRestaurant
+book spot for at,O O O B-party_size_number O B-city,BookRestaurant
+i want to book a for people in,O O O O O B-restaurant_type B-timeRange I-timeRange I-timeRange O B-party_size_number O O B-city I-city B-state,BookRestaurant
+i want to eat in,O O O O O B-city,BookRestaurant
+book a party at for,O O O O B-poi I-poi B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation O B-restaurant_type,BookRestaurant
+book me a reservation for a party of at a in,O O O O O O O O B-party_size_number O O B-restaurant_type O B-country I-country I-country,BookRestaurant
+i want to book a in for people,O O O O O B-cuisine B-restaurant_type O B-timeRange I-timeRange B-spatial_relation B-city O B-party_size_number O,BookRestaurant
+book a reservation for people at the,O O O O B-party_size_number O O O B-sort B-restaurant_type B-spatial_relation B-city B-timeRange I-timeRange I-timeRange,BookRestaurant
+need a table somewhere in,O O O O O B-city B-timeRange I-timeRange I-timeRange I-timeRange,BookRestaurant
+what will the weather be from,O O O O O B-spatial_relation O B-current_location,GetWeather
+will there be in,O O O B-condition_description O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+tell me the weather forecast for,O O O O O O B-city,GetWeather
+is there a in,O O O B-condition_description B-timeRange O B-state,GetWeather
+what will the weather be in on,O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi O B-timeRange I-timeRange I-timeRange,GetWeather
+weather in,O B-timeRange I-timeRange O B-country,GetWeather
+when will it be,O O O O B-condition_temperature B-current_location,GetWeather
+what will the weather be in,O O O O O B-timeRange I-timeRange I-timeRange O B-country,GetWeather
+what kind of weather will be in,O O O O O O O B-country B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+in,B-condition_description O B-city B-state I-state,GetWeather
+what s the weather going to be in,O O O O O O O O B-state,GetWeather
+from on,B-condition_description B-spatial_relation I-spatial_relation O B-city I-city O B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+what is the forecast for at during the,O O O O O B-state O B-city O O B-condition_description,GetWeather
+what will the weather be in,O O O O O O B-state I-state,GetWeather
+what is the forecast starting the state of,O O O O O B-timeRange I-timeRange I-timeRange I-timeRange B-spatial_relation O O O B-state,GetWeather
+will it be at in,O O O B-condition_description O B-timeRange O B-city B-country I-country,GetWeather
+check the forecast for,O O O O B-state,GetWeather
+will it be in at,O O O B-condition_temperature O B-country I-country O B-timeRange I-timeRange I-timeRange,GetWeather
+let me know the weather forecast around from in,O O O O O O O B-timeRange I-timeRange B-spatial_relation O B-current_location O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+will it be in the,O O O B-condition_description O O B-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+tell me if it will be in,O O O O O O B-condition_description B-timeRange I-timeRange I-timeRange I-timeRange O B-city I-city B-state,GetWeather
+what will the weather be,O O O O O B-timeRange I-timeRange I-timeRange I-timeRange B-spatial_relation B-country I-country I-country I-country,GetWeather
+will there be on in,O O O B-condition_description O B-timeRange O B-country,GetWeather
+will it be,O O O B-condition_temperature B-current_location B-timeRange I-timeRange I-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+what s the weather going to be in,O O O O O O O O B-city,GetWeather
+what will the weather be in on,O O O O O O B-city O B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+what will the weather be in,O O O O O O B-state,GetWeather
+i need to know the weather for in when i go to,O O O O O O O B-timeRange I-timeRange I-timeRange O B-country O O O O B-city I-city,GetWeather
+what is the forecast for and,O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi B-timeRange I-timeRange I-timeRange O B-spatial_relation I-spatial_relation I-spatial_relation I-spatial_relation,GetWeather
+what kind of weather is forecast around,O O O O O O O B-timeRange I-timeRange B-spatial_relation B-country,GetWeather
+will it be in,O O O B-condition_temperature O B-city,GetWeather
+will it be in,O O O B-condition_temperature O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+will it be at in,O O O B-condition_temperature O B-timeRange O B-city I-city I-city B-country I-country I-country,GetWeather
+what is the weather going to be like in on,O O O O O O O O O B-state O B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+weather in,O O B-city B-state,GetWeather
+when is for,O O B-timeRange O B-state,GetWeather
+what will the weather be from on,O O O O O B-spatial_relation I-spatial_relation O B-current_location O B-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+what is the forecast for in,O O O O O B-city O B-country,GetWeather
+tell me the weather forecast,O O O O O B-current_location,GetWeather
+what is the weather forecast,O O O O O B-spatial_relation B-city,GetWeather
+what will the weather be in in,O O O O O O B-timeRange O B-city,GetWeather
+will it be in,O O O B-condition_temperature B-timeRange I-timeRange I-timeRange I-timeRange O B-city B-state,GetWeather
+what is the weather forecast for,O O O O O O B-country,GetWeather
+what s the weather in,O O O O O B-city I-city,GetWeather
+what will the weather be in on,O O O O O O B-state O B-timeRange I-timeRange I-timeRange,GetWeather
+will the be out in,O O B-condition_description O O B-timeRange I-timeRange I-timeRange O B-city B-country,GetWeather
+what is the weather,O O O O B-current_location,GetWeather
+what will the weather be in,O O O O O B-timeRange I-timeRange I-timeRange I-timeRange O B-country,GetWeather
+what kind of weather is forecast in,O O O O O O O B-state B-timeRange,GetWeather
+what is the forecast for for,O O O O O B-state O B-condition_temperature,GetWeather
+how will it be,O B-condition_temperature O O O B-current_location B-timeRange I-timeRange I-timeRange,GetWeather
+what is the forecast for weather at,O O O O O B-condition_temperature O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+what is the forecast for the starting on,O O O B-condition_description O O O B-current_location I-current_location O O B-timeRange I-timeRange I-timeRange,GetWeather
+what is the forecast for at on,O O O O O B-country O B-city I-city O B-timeRange I-timeRange I-timeRange,GetWeather
+what will the be in the at,O O O B-condition_description O O O B-current_location I-current_location O B-timeRange,GetWeather
+what is the forecast in and,O O O O O B-city O B-spatial_relation,GetWeather
+what is the weather going to be like in,O O O O O O O O O B-city B-state B-timeRange I-timeRange I-timeRange I-timeRange I-timeRange I-timeRange,GetWeather
+what s the weather forecast for,O O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi B-spatial_relation I-spatial_relation B-timeRange I-timeRange,GetWeather
+what is the forecast for beginning on for,O O O O O O O B-timeRange I-timeRange O B-city,GetWeather
+what s the forecast for in,O O O O O B-timeRange I-timeRange O B-city B-country I-country I-country I-country,GetWeather
+will there be a in,O O O O B-condition_description B-timeRange I-timeRange O B-city B-state,GetWeather
+will it be in the on,O O O B-condition_temperature O O B-state I-state I-state O B-timeRange I-timeRange I-timeRange,GetWeather
+what will the weather be on,O O O O O B-current_location O B-timeRange I-timeRange,GetWeather
+what is the forecast for temps beginning on,O O O O O B-condition_temperature O O O B-timeRange I-timeRange B-current_location,GetWeather
+what s the weather like in,O O O O O O B-city B-state I-state,GetWeather
+what is the forecast for for conditions at,O O O O O B-current_location O B-condition_description O O B-timeRange I-timeRange,GetWeather
+will there be a in at,O O O O B-condition_description O B-city O B-timeRange I-timeRange I-timeRange,GetWeather
+what is the condition of our for,O O O B-condition_temperature O O O B-current_location I-current_location O B-timeRange,GetWeather
+what will the weather be in on,O O O O O O B-city I-city O B-timeRange I-timeRange I-timeRange,GetWeather
+will it be in,O O O B-condition_temperature B-timeRange O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+what is the forecast in in starting at,O O O O O B-city O B-state O O B-timeRange,GetWeather
+what is the forecast in for,O O O O O B-state I-state O B-city,GetWeather
+what is the forecast for,O O O O O B-country I-country,GetWeather
+need weather for to see if it will be today,O O O B-geographic_poi I-geographic_poi I-geographic_poi O O O O O O B-condition_description O,GetWeather
+weather in on,O O B-city B-country O B-timeRange,GetWeather
+what s the right,O O O B-condition_description B-current_location O B-timeRange,GetWeather
+how s the weather at and right,O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi O B-spatial_relation O B-timeRange,GetWeather
+what is the forecast for for weather,O O O O O B-city O B-condition_temperature O,GetWeather
+on in and places,B-condition_description O B-timeRange I-timeRange O B-geographic_poi I-geographic_poi I-geographic_poi O B-spatial_relation O,GetWeather
+i need the weather in,O O O O O B-city,GetWeather
+tell me the forecast for in,O O O O O B-timeRange I-timeRange O B-geographic_poi,GetWeather
+tell me the weather forecast for on,O O O O O O B-state O B-timeRange,GetWeather
+what is the forecast for,O O O O O B-geographic_poi I-geographic_poi I-geographic_poi I-geographic_poi,GetWeather
+will it be in at,O O O B-condition_temperature O B-state O B-timeRange I-timeRange I-timeRange,GetWeather
+weather in,O B-timeRange I-timeRange I-timeRange O B-country,GetWeather
+what is the forecast for this for conditions in,O O O O O O B-timeRange O B-condition_description O O B-city B-country,GetWeather
+how s the weather at,O O O O B-current_location O B-timeRange I-timeRange,GetWeather
+will be at,O B-geographic_poi I-geographic_poi I-geographic_poi O B-condition_temperature O B-timeRange I-timeRange,GetWeather
+what is the forecast for starting at in for weather,O O O O O O O B-timeRange I-timeRange I-timeRange O B-city I-city O B-condition_temperature O,GetWeather
+what s the weather in,O O O O O B-city I-city,GetWeather
+what is the forecast for in,O O O B-condition_description O O B-timeRange I-timeRange I-timeRange I-timeRange O B-country I-country,GetWeather
+tell me the weather forecast,O O O O O B-current_location,GetWeather
+will there be a in,O O O O B-condition_description O B-state B-timeRange I-timeRange I-timeRange,GetWeather
+how much will it be from around,O O B-condition_temperature O O O B-spatial_relation I-spatial_relation O B-state O B-timeRange I-timeRange,GetWeather
+will it be in,O O O B-condition_temperature B-timeRange O B-city B-country,GetWeather
+what will the weather be in on,O O O O O O B-geographic_poi I-geographic_poi O B-timeRange I-timeRange I-timeRange,GetWeather
+will it be in,O O O B-condition_description O B-city,GetWeather
+will it be in the on,O O O B-condition_temperature O O B-country O B-timeRange I-timeRange,GetWeather
+where is located,O O B-country O,GetWeather
+what will the weather be in,O O O O O O B-city I-city,GetWeather
+can you put on by,O O O O B-album I-album I-album O B-artist I-artist,PlayMusic
+play by,O B-album I-album I-album O B-artist I-artist,PlayMusic
+play the on by,O O B-sort B-music_item O B-service I-service O B-artist I-artist,PlayMusic
+use to play music,O B-service I-service O O O,PlayMusic
+please play something from any from on will do,O O O B-sort O B-artist O B-music_item O B-year O B-service O O,PlayMusic
+play a from,O O B-music_item O B-year,PlayMusic
+let me hear the songs from,O O O O B-sort O O B-artist I-artist,PlayMusic
+play my playlist,O O B-playlist O,PlayMusic
+i want to play music from,O O O O O O B-service,PlayMusic
+play from,O B-album I-album O B-artist I-artist,PlayMusic
+i want to hear a,O O O O O B-year B-music_item I-music_item,PlayMusic
+play a,O O B-artist I-artist B-music_item,PlayMusic
+please play something from that s on the,O O O O B-artist I-artist O O O O B-sort I-sort,PlayMusic
+please play something on,O O O B-playlist O B-service,PlayMusic
+play something from by on,O O O B-year O B-artist I-artist O B-service,PlayMusic
+play music please,O B-year O O,PlayMusic
+play music from the artist and sort it through,O O O O O B-artist I-artist O O O O B-sort,PlayMusic
+play anything did in the,O O B-artist I-artist O O O B-year,PlayMusic
+play music off,O O O B-service,PlayMusic
+songs on,B-year O O B-service,PlayMusic
+open and play,O B-service O O B-artist I-artist B-album I-album I-album,PlayMusic
+play an by,O O B-music_item O B-artist I-artist,PlayMusic
+play an from,O O B-music_item O B-artist I-artist,PlayMusic
+i want to listen to something on,O O O O O O O B-service,PlayMusic
+start playing something from,O O O O B-service,PlayMusic
+play on,O B-playlist I-playlist O B-service,PlayMusic
+find and play a on from by,O O O O B-music_item O B-service O B-year O B-artist I-artist,PlayMusic
+play,O B-track I-track I-track I-track,PlayMusic
+i want to hear music from from the,O O O O O O B-artist I-artist O O B-year,PlayMusic
+turn on,O O B-service I-service,PlayMusic
+play a by,O O B-music_item O B-artist I-artist,PlayMusic
+play by,O B-track I-track O B-artist,PlayMusic
+play some from the on,O O B-artist I-artist I-artist I-artist O O B-year O B-service I-service,PlayMusic
+i want to listen to an from,O O O O O O B-music_item O B-year,PlayMusic
+play,O B-artist I-artist,PlayMusic
+play,O B-album I-album B-music_item,PlayMusic
+play s from,O B-music_item O O B-year,PlayMusic
+play something from,O O O B-playlist I-playlist I-playlist I-playlist,PlayMusic
+play by from,O B-track I-track I-track I-track I-track O B-artist O B-service I-service,PlayMusic
+play by on,O B-music_item O B-artist I-artist O B-service,PlayMusic
+play some songs on,O O B-year O O B-service I-service,PlayMusic
+play a from on,O O B-year B-music_item O B-artist I-artist O B-service I-service,PlayMusic
+please play my playlist,O O O B-playlist O,PlayMusic
+open and play by,O B-service O O B-album I-album I-album I-album O B-artist I-artist,PlayMusic
+let s play s on,O O O B-artist I-artist O B-album O B-service,PlayMusic
+play a,O O B-year B-music_item,PlayMusic
+play on,O B-playlist I-playlist I-playlist I-playlist O B-service,PlayMusic
+please,B-album I-album I-album I-album B-artist I-artist O,PlayMusic
+play the on,O O B-sort I-sort B-artist I-artist O B-service,PlayMusic
+play some,O O B-year B-artist I-artist,PlayMusic
+play the,O O B-sort I-sort B-artist,PlayMusic
+play music from,O O O B-artist,PlayMusic
+can you play on,O O O B-artist I-artist I-artist O B-service I-service,PlayMusic
+play a,O O B-artist I-artist B-music_item,PlayMusic
+i want to hear on play the,O O O O B-artist I-artist O B-service O O B-music_item B-track I-track I-track I-track,PlayMusic
+play some music from,O O B-music_item O O B-artist I-artist,PlayMusic
+please play something on from artist,O O O O B-service O O B-artist I-artist B-sort B-music_item,PlayMusic
+i want to hear from the artist,O O O O B-music_item O O O B-artist,PlayMusic
+play music from the,O B-music_item I-music_item O O O B-year,PlayMusic
+play by,O B-track I-track I-track I-track O B-artist I-artist,PlayMusic
+play music from,O O O B-year,PlayMusic
+go to and play by,O O B-service O O B-album I-album O B-artist I-artist,PlayMusic
+play from through,O B-album I-album I-album I-album I-album I-album I-album I-album I-album O B-artist I-artist O B-service,PlayMusic
+play some from the,O O B-music_item O O B-year,PlayMusic
+please into s music,O B-music_item O B-artist I-artist O B-sort O,PlayMusic
+play the music from,O O B-sort O O B-artist I-artist,PlayMusic
+play something on,O O O B-service I-service,PlayMusic
+play music by,O O O B-artist I-artist,PlayMusic
+play some,O O B-artist I-artist I-artist,PlayMusic
+play music by,O O O B-artist I-artist,PlayMusic
+can you play by,O O O B-sort B-service O B-artist,PlayMusic
+play the,O O B-sort B-artist I-artist B-music_item,PlayMusic
+let s hear stuff from,O O O O O B-artist I-artist,PlayMusic
+play a from the by,O O B-sort B-music_item O O B-year O B-artist I-artist,PlayMusic
+play from,O B-album I-album O B-artist I-artist I-artist,PlayMusic
+play the music from off,O O B-sort O O B-artist I-artist I-artist O B-service I-service,PlayMusic
+play the,O O B-sort B-artist,PlayMusic
+play something by from the,O O O B-artist I-artist O O B-year,PlayMusic
+use the service to play,O O B-service I-service O O O B-playlist I-playlist I-playlist I-playlist I-playlist,PlayMusic
+play my playlist,O O B-playlist I-playlist I-playlist I-playlist I-playlist O,PlayMusic
+play an from,O O B-music_item O B-artist I-artist,PlayMusic
+i want to hear anything from the genre please,O O O O O O O B-genre I-genre O O,PlayMusic
+please play a,O O O B-year B-music_item,PlayMusic
+put by on the stereo,O B-album I-album I-album I-album I-album O B-artist I-artist O O O,PlayMusic
+please play a from,O O O B-music_item O B-artist I-artist I-artist,PlayMusic
+play some on,O O B-sort B-artist I-artist O B-service,PlayMusic
+please open,O O B-service,PlayMusic
+play,O B-genre I-genre,PlayMusic
+i want to hear music on from,O O O O B-music_item O O B-service O B-artist I-artist I-artist,PlayMusic
+play a by from,O O B-music_item O B-artist I-artist O B-year,PlayMusic
+play some,O O B-genre I-genre,PlayMusic
+proceed with music from,O O B-artist I-artist O O B-year,PlayMusic
+play something on,O O O B-service,PlayMusic
+play music from,O O O B-artist I-artist I-artist I-artist,PlayMusic
+let me hear music,O O O B-artist I-artist O,PlayMusic
+let s hear on,O O O B-sort B-artist I-artist O B-service,PlayMusic
+please play a from the that s on,O O O B-music_item I-music_item O O B-year O O O B-service,PlayMusic
+play by,O B-album I-album I-album O B-artist I-artist,PlayMusic
+play on,O B-track I-track O B-service,PlayMusic
+play,O B-playlist I-playlist,PlayMusic
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+give,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate out of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+give to,O B-rating_value B-rating_unit O B-object_name I-object_name I-object_name I-object_name,RateBook
+give a score of,O B-object_select B-object_type O O O B-rating_value,RateBook
+give the of,O O B-object_select B-object_part_of_series_type B-rating_value O B-best_rating B-rating_unit,RateBook
+give out of to,O B-rating_value O O B-best_rating B-rating_unit O B-object_name I-object_name I-object_name B-object_part_of_series_type,RateBook
+give out of to,O B-rating_value B-rating_unit O O B-best_rating O B-object_name I-object_name,RateBook
+rate a,O B-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value,RateBook
+rate the,O O B-object_select B-object_part_of_series_type B-rating_value B-rating_unit,RateBook
+rate a out of,O B-object_select B-object_type O B-rating_value O O B-best_rating,RateBook
+rate the of,O O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit,RateBook
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+give out of to the,O B-rating_value O O B-best_rating O O B-object_select B-object_type,RateBook
+give,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+rate,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_part_of_series_type B-rating_value B-rating_unit,RateBook
+give the,O O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+give the,O O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+give,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+rate of,O B-object_name I-object_name B-rating_value O B-best_rating B-rating_unit,RateBook
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating,RateBook
+give the,O O B-object_name B-object_part_of_series_type B-rating_value B-rating_unit,RateBook
+deserves out of for a rating,B-object_name I-object_name I-object_name I-object_name I-object_name B-object_part_of_series_type O B-rating_value B-rating_unit O O B-best_rating O O O,RateBook
+give a out of rating,O B-object_name I-object_name I-object_name I-object_name O B-rating_value O O B-best_rating O,RateBook
+should get a,B-object_name I-object_name I-object_name O O O B-rating_value,RateBook
+give to,O B-rating_value B-rating_unit O B-object_select B-object_type,RateBook
+rate the a out of,O O B-object_select B-object_type O B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate the out of,O O B-object_type B-object_name I-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+rate out of,O B-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+rate the star,O O B-object_part_of_series_type B-object_select B-rating_value O,RateBook
+mark a score of,O B-object_select B-object_type O O O B-rating_value,RateBook
+rate the out of,O O B-object_select B-object_type B-rating_value O O B-best_rating,RateBook
+rate the a,O O B-object_select B-object_type O B-rating_value,RateBook
+give,O B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_select I-object_select B-object_type B-rating_value O O B-best_rating,RateBook
+give a out of rating,O B-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O O B-best_rating O,RateBook
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate the,O O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+rate the out of,O O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate,O B-object_select I-object_select B-object_type B-rating_value B-rating_unit,RateBook
+give out of,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate out of,O B-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+give my of,O O B-object_select B-object_type B-rating_value O B-best_rating B-rating_unit,RateBook
+rate,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+give out of to,O B-rating_value O O B-best_rating B-rating_unit O B-object_select B-object_type,RateBook
+give a rating of to,O O O O B-rating_value O B-object_name,RateBook
+rate out of,O B-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate out of,O B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit O O B-best_rating,RateBook
+give out of,O B-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+give to,O B-rating_value B-rating_unit O B-object_name I-object_name I-object_name,RateBook
+give the a of,O O B-object_select B-object_type O B-rating_value O B-best_rating,RateBook
+rate out of,O B-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate the a,O O B-object_select B-object_part_of_series_type O B-rating_value,RateBook
+give of to,O B-rating_value O B-best_rating B-rating_unit O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,RateBook
+give out of to,O B-rating_value O O B-best_rating B-rating_unit O B-object_select B-object_type,RateBook
+give,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+rate out of,O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate,O B-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+give of,O B-object_name I-object_name I-object_name B-rating_value O B-best_rating B-rating_unit,RateBook
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+give,O B-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+give the a rating of,O O B-object_select B-object_type O O O B-rating_value,RateBook
+give to,O B-rating_value B-rating_unit O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,RateBook
+give a rating to,O O B-rating_value O O B-object_name I-object_name I-object_name,RateBook
+rate,O B-object_select B-object_part_of_series_type B-rating_value B-rating_unit,RateBook
+give a rating of,O B-object_name I-object_name I-object_name I-object_name I-object_name O O O B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_select B-object_part_of_series_type B-rating_value O O B-best_rating,RateBook
+rate,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_name B-rating_value O O B-best_rating,RateBook
+rate a out of,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O O B-best_rating,RateBook
+give start to the,O B-rating_value O O O B-object_select B-object_type,RateBook
+give a rating,O B-object_select B-object_part_of_series_type O B-rating_value O,RateBook
+rate a,O B-object_select B-object_type O B-rating_value,RateBook
+out of give a,O O B-best_rating O B-object_name I-object_name I-object_name O B-rating_value,RateBook
+give of to,O B-rating_value O B-best_rating B-rating_unit O B-object_name I-object_name,RateBook
+rate a,O B-object_name I-object_name I-object_name B-object_part_of_series_type O B-rating_value,RateBook
+rate out of,O B-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+i would rate out of,O O O B-object_name I-object_name I-object_name I-object_name B-rating_value O O B-best_rating B-rating_unit,RateBook
+rate,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+give rating to,O B-rating_value O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,RateBook
+give out of rating to the,O B-rating_value O O B-best_rating O O O B-object_select B-object_type,RateBook
+give the of,O O B-object_select B-object_part_of_series_type B-rating_value O B-best_rating B-rating_unit,RateBook
+rate a,O B-object_name I-object_name I-object_name I-object_name O B-rating_value,RateBook
+give,O B-object_select B-object_type B-rating_value B-rating_unit,RateBook
+rate,O B-object_name I-object_name I-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+rate a,O B-object_name I-object_name O B-rating_value,RateBook
+give a out of,O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name O B-rating_value O O B-best_rating B-rating_unit,RateBook
+give a,O B-object_select B-object_type O B-rating_value,RateBook
+rate the out of,O O B-object_select B-object_type B-rating_value O O B-best_rating,RateBook
+give out of,O B-object_select B-object_type B-rating_value O O B-best_rating B-rating_unit,RateBook
+give,O B-object_name I-object_name I-object_name B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_select B-object_part_of_series_type B-rating_value O O B-best_rating,RateBook
+give a rating of,O B-object_name I-object_name I-object_name I-object_name I-object_name O O O B-rating_value B-rating_unit,RateBook
+rate out of,O B-object_select B-object_type B-rating_value B-rating_unit O O B-best_rating,RateBook
+rate the out of,O O B-object_name I-object_name B-rating_value O O B-best_rating,RateBook
+give to,O B-rating_value B-rating_unit O B-object_name I-object_name I-object_name,RateBook
+rate the,O O B-object_select B-object_part_of_series_type B-rating_value B-rating_unit,RateBook
+wish to find the the,O O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+please look up the,O O O O B-object_type I-object_type B-object_name,SearchCreativeWork
+get me the,O O O B-object_name I-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+please find me the,O O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+wish to see the with the name,O O O O B-object_type O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+looking for a called,O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+can you find me the work,O O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please get me,O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+need a creative work called,O O O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+search for the for,O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+looking for a creative work called,O O O O O O B-object_name I-object_name,SearchCreativeWork
+find the,O O B-object_type I-object_type B-object_name I-object_name,SearchCreativeWork
+can you please find me the,O O O O O O B-object_type B-object_name I-object_name,SearchCreativeWork
+can you find me,O O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+please fine me the,O O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please look up the work,O O O O O B-object_name I-object_name,SearchCreativeWork
+please help me find the,O O O O O B-object_name I-object_name I-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+please help me find,O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please look up the,O O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+can you find me,O O O O B-object_name I-object_name,SearchCreativeWork
+please search for,O O O B-object_name,SearchCreativeWork
+can you get me the,O O O O O B-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+please look up the,O O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+please search for the,O O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please find me,O O O B-object_name I-object_name,SearchCreativeWork
+get me the,O O O B-object_name I-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+looking for a called,O O O B-object_type O B-object_name I-object_name,SearchCreativeWork
+can you search the,O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+look for the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find me a called,O O O B-object_type I-object_type O B-object_name I-object_name,SearchCreativeWork
+search for,O O B-object_name I-object_name,SearchCreativeWork
+look for the,O O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+can you find me,O O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+please help me search the,O O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+get me the,O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+can you find me the work titled,O O O O O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+please search for the titled,O O O O B-object_type O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+could you locate the,O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+get me the of,O O O B-object_type O B-object_name I-object_name I-object_name,SearchCreativeWork
+please search the,O O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+can you find me the,O O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+could you find the,O O O O B-object_type I-object_type B-object_name I-object_name,SearchCreativeWork
+search for the,O O O B-object_type I-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+please look up,O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+please get me the,O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+can you look up the,O O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+search for,O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find the creative work,O O O O B-object_name I-object_name,SearchCreativeWork
+need the creative work called,O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+can you find me the,O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type I-object_type,SearchCreativeWork
+can you please find me the,O O O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+can you find me the work,O O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please look up and find me,O O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please search for,O O O B-object_name,SearchCreativeWork
+please search the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find me the with the name …,O O O B-object_type O O O B-object_name I-object_name I-object_name I-object_name O,SearchCreativeWork
+looking for a with the title of,O O O B-object_type O O O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+can you find the,O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+can you find me the,O O O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+please find me the,O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+look for the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please find me the,O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+can you get me the,O O O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+find me the,O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+please get me,O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+find the,O O B-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+am looking for a with the title,O O O O B-object_type O O O B-object_name I-object_name I-object_name,SearchCreativeWork
+look for the,O O O B-object_type I-object_type B-object_name I-object_name,SearchCreativeWork
+can you search the,O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+looking for a with the title,O O O B-object_type O O O B-object_name I-object_name,SearchCreativeWork
+please find me the,O O O O B-object_name B-object_type,SearchCreativeWork
+look for the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find the creative work,O O O O B-object_name I-object_name,SearchCreativeWork
+find,O B-object_name I-object_name,SearchCreativeWork
+find me the,O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please search for the,O O O O B-object_type I-object_type B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find a creative work called,O O O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+looking for the with the name of,O O O B-object_type O O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+look for the,O O O B-object_type B-object_name I-object_name,SearchCreativeWork
+find the,O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please find me the,O O O O B-object_name I-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+find the,O O B-object_type I-object_type B-object_name I-object_name,SearchCreativeWork
+can you please get me the,O O O O O O B-object_type B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please look up the,O O O O B-object_type B-object_name I-object_name I-object_name,SearchCreativeWork
+please find me the titled,O O O O B-object_type I-object_type O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+find the creative work,O O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please look up the work,O O O O O B-object_name,SearchCreativeWork
+i m looking for,O O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please search for the,O O O O B-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+please look up,O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+please search the,O O O B-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+can you find the creative works associated with,O O O O O O O O B-object_name I-object_name I-object_name I-object_name I-object_name,SearchCreativeWork
+please get me the,O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+please search the,O O O B-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+please look up the,O O O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+can you find me,O O O O B-object_name I-object_name I-object_name I-object_name I-object_name B-object_type,SearchCreativeWork
+i wish to watch please search,O O O O B-object_name I-object_name B-object_type O O,SearchCreativeWork
+can you find me the,O O O O O B-object_name I-object_name B-object_type,SearchCreativeWork
+please find me the work,O O O O O B-object_name I-object_name,SearchCreativeWork
+search for the,O O O B-object_type B-object_name I-object_name,SearchCreativeWork
+is playing,O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+is playing,O B-movie_name I-movie_name O,SearchScreeningEvent
+is playing at,O B-movie_name I-movie_name I-movie_name O O B-timeRange I-timeRange,SearchScreeningEvent
+what s the,O O O B-object_type I-object_type,SearchScreeningEvent
+i want to see,O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+when is playing in this,O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O O B-object_location_type,SearchScreeningEvent
+show me the for,O O O B-object_type O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+is playing,O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O B-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+i want to see at the,O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O B-spatial_relation B-object_location_type,SearchScreeningEvent
+where can i see,O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+i need to find the showing to me,O O O O O B-object_location_type I-object_location_type O B-movie_name I-movie_name I-movie_name B-spatial_relation O O,SearchScreeningEvent
+i want to see at the,O O O O B-movie_name I-movie_name I-movie_name I-movie_name O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+i want to see when will it be showing,O O O O B-movie_name I-movie_name I-movie_name I-movie_name O O O O O,SearchScreeningEvent
+find the for at,O O B-object_type O B-movie_name I-movie_name O B-location_name I-location_name,SearchScreeningEvent
+what are the for my favorite,O O O B-object_type I-object_type O O O B-location_name,SearchScreeningEvent
+what are the showing,O O O B-movie_type O B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+is playing,O B-movie_name I-movie_name O B-timeRange I-timeRange I-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+i need for time,O O B-movie_type I-movie_type B-spatial_relation I-spatial_relation I-spatial_relation O B-timeRange O,SearchScreeningEvent
+i want to see in a,O O O O B-movie_name I-movie_name I-movie_name I-movie_name O O B-object_location_type I-object_location_type,SearchScreeningEvent
+can i see,O O O B-movie_name I-movie_name I-movie_name B-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+i want at,O O B-movie_type I-movie_type O B-location_name I-location_name,SearchScreeningEvent
+show me the for,O O O B-object_type O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+i want to know if there are any playing,O O O O O O O O B-movie_type O B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+is showing at,O B-movie_name I-movie_name I-movie_name I-movie_name O O B-location_name I-location_name,SearchScreeningEvent
+show the that shows,O O B-spatial_relation B-object_location_type I-object_location_type O O B-movie_name,SearchScreeningEvent
+i want to see at,O O O O B-movie_name I-movie_name I-movie_name I-movie_name O B-location_name I-location_name I-location_name,SearchScreeningEvent
+is showing at the,O B-movie_name I-movie_name O B-timeRange I-timeRange I-timeRange I-timeRange O O B-spatial_relation B-object_location_type,SearchScreeningEvent
+what is the with playing at,O O O B-spatial_relation B-object_location_type I-object_location_type O B-movie_name I-movie_name O O B-timeRange,SearchScreeningEvent
+is showing at,O B-movie_name I-movie_name I-movie_name O O B-location_name I-location_name,SearchScreeningEvent
+fine the for the,O O B-object_type I-object_type O O B-location_name I-location_name,SearchScreeningEvent
+give me the,O O O B-object_type I-object_type B-spatial_relation,SearchScreeningEvent
+find the at the,O O B-object_type O O B-location_name I-location_name I-location_name,SearchScreeningEvent
+show me the at,O O O B-movie_type O B-location_name I-location_name,SearchScreeningEvent
+what at,O B-movie_type O B-location_name I-location_name,SearchScreeningEvent
+i want a,O O O B-object_type I-object_type,SearchScreeningEvent
+can i get the,O O O O B-object_type I-object_type,SearchScreeningEvent
+i want to see,O O O O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+can i get the for,O O O O B-object_type O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+may i have the for,O O O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+find,O B-movie_type I-movie_type B-spatial_relation I-spatial_relation,SearchScreeningEvent
+is showing in,O B-movie_name I-movie_name O O B-location_name I-location_name,SearchScreeningEvent
+what are the,O O O B-object_type I-object_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+check the for,O O B-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+check the timings for at the,O O O O B-movie_name O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+what are the at,O O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+i need,O O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+show the,O O B-object_type I-object_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+where s the showing foreign,O O O B-spatial_relation B-object_location_type I-object_location_type O O B-movie_type,SearchScreeningEvent
+what are showing at the,O B-movie_type O O B-timeRange O O B-spatial_relation B-object_location_type,SearchScreeningEvent
+is playing,O B-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+i need a list of,O O O O O B-location_name I-location_name B-object_type I-object_type,SearchScreeningEvent
+when is playing at the,O O B-movie_name I-movie_name I-movie_name I-movie_name O O O B-spatial_relation B-object_location_type,SearchScreeningEvent
+find the at,O O B-object_type I-object_type O B-location_name I-location_name,SearchScreeningEvent
+find the at,O O B-movie_type O B-location_name I-location_name,SearchScreeningEvent
+show the playing,O O B-movie_type I-movie_type O B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+i want to see,O O O O B-movie_name I-movie_name,SearchScreeningEvent
+show me,O O B-location_name I-location_name B-object_type I-object_type,SearchScreeningEvent
+is showing at,O B-movie_name I-movie_name O O B-timeRange,SearchScreeningEvent
+is showing at,O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O B-location_name I-location_name,SearchScreeningEvent
+find the for,O O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+i want to see,O O O O B-movie_name I-movie_name,SearchScreeningEvent
+find the at,O O B-object_type O B-location_name I-location_name,SearchScreeningEvent
+will be playing at,O B-movie_name I-movie_name I-movie_name I-movie_name O O O B-timeRange I-timeRange,SearchScreeningEvent
+show me the for for only,O O O B-object_type O B-location_name I-location_name O O B-movie_type I-movie_type,SearchScreeningEvent
+find the for,O O B-object_type O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+give me the,O O O B-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+what are playing,O B-movie_type O O B-spatial_relation I-spatial_relation,SearchScreeningEvent
+is playing,O B-movie_name I-movie_name I-movie_name O,SearchScreeningEvent
+what s the for,O O O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+find the,O O B-object_type I-object_type B-spatial_relation I-spatial_relation,SearchScreeningEvent
+i want to see,O O O O B-movie_name,SearchScreeningEvent
+show me the of movie near,O O O B-object_type O O B-movie_name I-movie_name I-movie_name O B-object_location_type I-object_location_type,SearchScreeningEvent
+i need for at,O O B-object_type O B-movie_name I-movie_name I-movie_name I-movie_name O B-location_name I-location_name,SearchScreeningEvent
+find the at,O O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+show me the,O O O B-object_type I-object_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+show me the for,O O O B-object_type I-object_type O B-movie_type B-spatial_relation,SearchScreeningEvent
+show the for,O O B-object_type I-object_type O B-movie_type I-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+is playing at,O B-movie_name I-movie_name I-movie_name I-movie_name O O B-location_name I-location_name I-location_name,SearchScreeningEvent
+can you check the timings for,O O O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+is playing in any,O B-movie_name I-movie_name I-movie_name I-movie_name O O O B-object_location_type I-object_location_type,SearchScreeningEvent
+what will be showing at my,O B-object_type O B-movie_name I-movie_name I-movie_name O O O O B-object_location_type,SearchScreeningEvent
+show the at the,O O B-movie_name I-movie_name I-movie_name B-object_type O O B-spatial_relation B-object_location_type I-object_location_type,SearchScreeningEvent
+what are some showing,O O O B-spatial_relation I-spatial_relation B-movie_type I-movie_type O,SearchScreeningEvent
+for,B-object_type I-object_type B-spatial_relation I-spatial_relation O B-movie_type I-movie_type,SearchScreeningEvent
+what are playing,O B-movie_type O O B-spatial_relation I-spatial_relation,SearchScreeningEvent
+find the,O O B-object_type I-object_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+is playing,O B-movie_name I-movie_name O,SearchScreeningEvent
+is showing at the at,O B-movie_name I-movie_name O O O B-spatial_relation B-object_location_type I-object_location_type O B-timeRange,SearchScreeningEvent
+what are the,O O O B-object_type I-object_type,SearchScreeningEvent
+where can i find the,O O O O O B-object_type I-object_type,SearchScreeningEvent
+find the for,O O B-object_type I-object_type O B-location_name I-location_name I-location_name B-timeRange I-timeRange I-timeRange,SearchScreeningEvent
+find the with playing,O O B-spatial_relation B-object_location_type O B-movie_type O,SearchScreeningEvent
+what are the,O O O B-object_type I-object_type,SearchScreeningEvent
+what are the for,O O O B-object_type O B-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+what are playing,O B-movie_type O O B-spatial_relation I-spatial_relation,SearchScreeningEvent
+is any playing,O O B-object_location_type O B-movie_name I-movie_name I-movie_name I-movie_name,SearchScreeningEvent
+what are the for,O O O B-object_type I-object_type O B-movie_type I-movie_type B-spatial_relation I-spatial_relation I-spatial_relation,SearchScreeningEvent
+what s the at,O O O B-object_type I-object_type O B-location_name I-location_name I-location_name,SearchScreeningEvent
+show the for at,O O B-object_type O B-movie_name I-movie_name I-movie_name I-movie_name O B-location_name I-location_name,SearchScreeningEvent
+i want to see at a,O O O O B-movie_name I-movie_name I-movie_name I-movie_name I-movie_name O O B-object_location_type,SearchScreeningEvent
